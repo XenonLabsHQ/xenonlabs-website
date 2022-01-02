@@ -1,5 +1,5 @@
 <template>
-  <HelloWorld msg="Hello World !" />
+  <HelloWorld msg="XenonLabs is coming early 2022 !" />
 </template>
 
 <script>
