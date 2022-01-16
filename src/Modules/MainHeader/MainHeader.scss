@@ -2,17 +2,27 @@
 @import "../../Common/main.scss";
 
 .main-header {
-    background: $bg-evidence;
+    background: $bg-darker;
     height: 80px;
     overflow: hidden;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 15px;
 
     .mh-title {
         font-family: 'Outfit', sans-serif;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 30pt;
         color: white;
+    }
+
+    .mh-menuitems {
+        display: flex;
+        gap: 20px;
+
+        .mhmi-item {
+            color: white;
+        }
     }
 }
