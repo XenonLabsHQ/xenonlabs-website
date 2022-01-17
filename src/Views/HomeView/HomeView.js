@@ -5,6 +5,10 @@ const HomeView = () => {
     return (
         <div className="activity activity-homeview">
             <MainHeader />
+
+            <div className="section section-home" id="home">
+                Hello World !
+            </div>
         </div>
     )
 }
