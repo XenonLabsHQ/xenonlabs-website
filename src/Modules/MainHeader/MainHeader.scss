@@ -49,6 +49,8 @@
                 opacity: 0;
                 background: white;
                 transition: 0.1s opacity ease-in-out, 0.1s top ease-in-out;
+                pointer-events: none;
+                user-select: none;
             }
 
             &:hover {
