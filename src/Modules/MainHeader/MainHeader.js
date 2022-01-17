@@ -8,6 +8,7 @@ const MainHeader = () => {
             
             <div className="mh-menuitems">
                 <div className="mhmi-item">Acceuil</div>
+                <div className="mhmi-item">Panel Serveurs</div>
                 <div className="mhmi-item">A Propos de Nous</div>
                 <div className="mhmi-item">Contactez-nous</div>
             </div>
