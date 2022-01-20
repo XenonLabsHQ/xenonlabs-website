@@ -2,17 +2,6 @@
 @import "../../Common/main.scss";
 
 
-@keyframes mhmi-anim {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-
 .main-header {
     background: $bg-darker;
     height: 80px;
