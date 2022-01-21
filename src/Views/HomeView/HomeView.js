@@ -11,7 +11,7 @@ const HomeView = () => {
         <div className="section section-home" id="home">
           <div className="section-text">
             <div className="section-title">XenonLabs, Bienvenue !</div>
-            <div className="section-desctiption">
+            <div className="section-description">
               Donnons ensemble vie à votre projet. Nos développeurs et
               graphistes indépendants seront ravis de construire avec vous votre
               projet. Développement de bots discord, création de mods ou de
