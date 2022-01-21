@@ -9,7 +9,14 @@ const HomeView = () => {
 
       <div className="sections">
         <div className="section section-home" id="home">
-          Hello World !
+          <div className="section-text">
+            <div className="section-title">
+              XenonLabs, Bienvenue !
+            </div>
+            <div className="section-desctiption">
+              lorem
+            </div>
+          </div>
         </div>
       </div>
     </div>
