@@ -1,25 +1,26 @@
 @import "../../Common/main.scss";
 
 .section-home {
-    background-color: $bg-darker;
-    color: white;
-    height: 88vh;
+  background-color: $bg-darker;
+  color: white;
+  height: 88vh;
 
-    .section-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-        padding-left: 100px;
-        gap: 20px;
-        .section-title {
-            font-size: 50pt;
-        }
-
-        .section-description {
-            max-width: 30em;
-            font-size: 14pt;
-            font-weight: 200;
-        }
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 100px;
+    gap: 20px;
+    
+    .section-title {
+      font-size: 50pt;
     }
+
+    .section-description {
+      max-width: 30em;
+      font-size: 14pt;
+      font-weight: 200;
+    }
+  }
 }
