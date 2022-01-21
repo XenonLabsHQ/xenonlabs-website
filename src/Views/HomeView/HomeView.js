@@ -12,11 +12,15 @@ const HomeView = () => {
           <div className="section-text">
             <div className="section-title">XenonLabs, Bienvenue !</div>
             <div className="section-description">
-              Donnons ensemble vie à votre projet. Nos développeurs et
-              graphistes indépendants seront ravis de construire avec vous votre
-              projet. Développement de bots discord, création de mods ou de
-              plugins Minecraft, élaboration de site web, ou encore hébergement
-              de tout type de projets.
+              Développement de bots discord,
+              <br />
+              Création de mods et de plugins Minecraft,
+              <br />
+              Elaboration de site web, <br />
+              Solutions d'hébergements complète.
+              <br />
+              Nos développeurs et graphistes indépendants seront ravis de
+              construire avec vous votre projet.
             </div>
           </div>
         </div>
