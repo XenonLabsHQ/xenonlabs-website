@@ -1,5 +1,17 @@
 .section-home {
     background-color: black;
     color: white;
-    height: 100vh;
+    height: 88vh;
+
+    .section-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding-left: 100px;
+
+        .section-title {
+            font-size: 42pt;
+        }
+    }
 }
