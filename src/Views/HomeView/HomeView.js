@@ -17,10 +17,10 @@ const HomeView = () => {
               Création de mods et de plugins Minecraft,
               <br />
               Elaboration de site web, <br />
-              Solutions d'hébergements complète.
+              Solutions d'hébergements complètes.
               <br />
               Nos développeurs et graphistes indépendants seront ravis de
-              construire avec vous votre projet.
+              construire avec vous vos projets.
             </div>
           </div>
         </div>
