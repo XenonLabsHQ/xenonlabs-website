@@ -1,5 +1,7 @@
+@import "../../Common/main.scss";
+
 .section-home {
-    background-color: black;
+    background-color: $bg-darker;
     color: white;
     height: 88vh;
 
@@ -9,9 +11,9 @@
         justify-content: center;
         height: 100%;
         padding-left: 100px;
-
+        gap: 20px;
         .section-title {
-            font-size: 45pt;
+            font-size: 50pt;
         }
 
         .section-description {
