@@ -5,7 +5,7 @@ const MainHeader = () => {
   return (
     <header className="main-header">
       <div className="mh-title">
-        <span className="mh-title-label-xenon">Xenon</span>Labs
+        <span className="mh-title-label-xenon">Xenon</span>Labs<span className="mhtilx-dot">.</span>
       </div>
 
       <div className="mh-menuitems">
