@@ -1,16 +1,12 @@
 @import "../../Common/main.scss";
 
-.section-home {
-  background-color: $bg-darker;
-  color: white;
-  height: 88vh;
+.section {
+  border-bottom: 1px solid #505050b3;
 
   .section-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
-    bottom: 3em;
     height: 100%;
     padding-left: 100px;
     gap: 20px;
@@ -24,6 +20,31 @@
       max-width: 32em;
       font-size: 16pt;
       font-weight: 300;
+    }
+  }
+
+  &-home {
+    background-color: $bg-darker;
+    height: 100vh;
+    color: white;
+
+    .section-text {
+      position: relative;
+      bottom: 3em;
+    }
+  }
+
+  &-aboutus {
+    height: 75vh;
+    background-color: #121511;
+    color: white;
+  }
+
+  &-contactus {
+    height: 110vh;
+
+    .section-text {
+      color: white;
     }
   }
 }
