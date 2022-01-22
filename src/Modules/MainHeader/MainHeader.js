@@ -10,8 +10,8 @@ const MainHeader = () => {
 
       <div className="mh-menuitems">
         <a href="#home" className="mhmi-item">Acceuil</a>
-        <a className="mhmi-item">Contactez-nous</a>
-        <a className="mhmi-item">A Propos de Nous</a>
+        <a href="#aboutus" className="mhmi-item">A Propos de Nous</a>
+        <a href="#contactus" className="mhmi-item">Contactez-nous</a>
         <div className="separator separator-vertical" />
         <a className="mhmi-item">Panel Serveurs</a>
       </div>
