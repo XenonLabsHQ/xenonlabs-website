@@ -24,6 +24,24 @@ const HomeView = () => {
             </div>
           </div>
         </div>
+
+        <div className="section section-aboutus" id="aboutus">
+          <div className="section-text">
+            <div className="section-title">A Propos de nous</div>
+            <div className="section-description">
+              A Propos ...
+            </div>
+          </div>
+        </div>
+
+        <div className="section section-contactus" id="contactus">
+          <div className="section-text">
+            <div className="section-title">Un Projet ? Contactez-Nous !</div>
+            <div className="section-description">
+              Contact details ...
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
