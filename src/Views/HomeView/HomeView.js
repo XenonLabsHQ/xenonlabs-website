@@ -27,7 +27,7 @@ const HomeView = () => {
 
         <div className="section section-aboutus" id="aboutus">
           <div className="section-text">
-            <div className="section-title">A Propos de nous</div>
+            <div className="section-title">Qui sommes nous ?</div>
             <div className="section-description">
               A Propos ...
             </div>
