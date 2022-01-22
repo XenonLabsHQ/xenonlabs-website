@@ -9,10 +9,10 @@ const MainHeader = () => {
       </div>
 
       <div className="mh-menuitems">
-        <div className="mhmi-item">Acceuil</div>
-        <div className="mhmi-item">Panel Serveurs</div>
-        <div className="mhmi-item">A Propos de Nous</div>
-        <div className="mhmi-item">Contactez-nous</div>
+        <a href="#home" className="mhmi-item">Acceuil</a>
+        <a className="mhmi-item">Panel Serveurs</a>
+        <a className="mhmi-item">Contactez-nous</a>
+        <a className="mhmi-item">A Propos de Nous</a>
       </div>
     </header>
   );
