@@ -8,18 +8,30 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    padding-left: 100px;
+    padding: 0 100px;
     gap: 20px;
 
     .section-title {
       font-size: 50pt;
       font-weight: 600;
+
+      @media screen and (max-width: 1080px) {
+        font-size: 35pt;
+      }
+
+      @media screen and (max-width: 650px) {
+        font-size: 5vw;
+      }
     }
 
     .section-description {
       max-width: 32em;
       font-size: 16pt;
       font-weight: 300;
+
+      @media screen and (max-width: 650px) {
+        font-size: 12pt;
+      }
     }
   }
 
