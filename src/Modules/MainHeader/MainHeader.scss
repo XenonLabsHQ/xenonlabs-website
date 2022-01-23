@@ -36,6 +36,10 @@
         align-items: center;
         gap: 20px;
 
+        @media screen and (max-width: 1080px) {
+            display: none;
+        }
+
         .mhmi-item {
             color: white;
             font-size: 18px;
