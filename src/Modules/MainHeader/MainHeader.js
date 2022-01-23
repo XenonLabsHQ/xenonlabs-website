@@ -13,7 +13,7 @@ const MainHeader = () => {
         <a href="#aboutus" className="mhmi-item">Qui sommes nous ?</a>
         <a href="#contactus" className="mhmi-item">Contactez-Nous</a>
         <div className="separator separator-vertical" />
-        <a className="mhmi-item">Panel Serveurs</a>
+        <a href="https://panel.xenonlabs.fr/" className="mhmi-item">Panel Serveurs</a>
       </div>
     </header>
   );
