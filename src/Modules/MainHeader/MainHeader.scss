@@ -81,11 +81,10 @@
         pointer-events: none;
         user-select: none;
         border-radius: 300px;
+        cursor: pointer;
       }
 
       &:hover {
-        cursor: pointer;
-
         &::after {
           opacity: 1;
           top: 0;
