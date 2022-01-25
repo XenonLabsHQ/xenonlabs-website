@@ -15,7 +15,9 @@
   z-index: 999;
 
   @media screen and (max-width: 1080px) {
-    height: 50px;
+    height: 100vh;
+    background: none;
+    z-index: 0;
   }
 
   .mh-title {
@@ -30,6 +32,13 @@
 
     .mhtilx-dot {
       font-weight: 500;
+    }
+
+    @media screen and (max-width: 1080px) {
+      font-size: 80pt;
+      transform: rotate(-50deg);
+      opacity: 0.1;
+      user-select: none;
     }
   }
 
