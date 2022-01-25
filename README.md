@@ -1,3 +1,8 @@
+### TODO
+- Enable Transitions on the Logo on mobileMode
+- Page transitions
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
