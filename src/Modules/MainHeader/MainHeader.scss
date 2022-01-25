@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;600&display=swap");
 @import "../../Common/main.scss";
 
+@keyframes anim-mobile-logo {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .main-header {
   background: $bg-darker;
   height: 80px;
@@ -17,7 +27,7 @@
   @media screen and (max-width: 1080px) {
     height: 100vh;
     background: none;
-    z-index: 0;
+    z-index: -1;
   }
 
   .mh-title {
@@ -36,9 +46,9 @@
 
     @media screen and (max-width: 1080px) {
       font-size: 80pt;
-      transform: rotate(-50deg);
-      opacity: 0.1;
       user-select: none;
+      opacity: 0;
+      animation: 0.5s anim-mobile-logo ease-in-out forwards;
     }
   }
 
