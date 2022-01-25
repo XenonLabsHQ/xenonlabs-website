@@ -23,6 +23,12 @@
   gap: 20vw;
   padding: 0 15px;
   z-index: 999;
+  border-bottom: 1px solid #505050b3;
+
+  @supports (backdrop-filter: blur()) {
+    backdrop-filter: blur(20px);
+    background: $bg-trans-darker;
+  }
 
   @media screen and (max-width: 1080px) {
     height: 100vh;
