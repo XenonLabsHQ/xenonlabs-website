@@ -29,12 +29,14 @@ const HomeView = () => {
           <div className="section-text">
             <div className="section-title">Pourquoi nous choisir ?</div>
             <div className="section-description">
-              Nous n'avons pas de grille tarifaire, nous choisissions avec vous un prix correct et cohérent 
-              Nos développeurs et graphistes sont indépendant et touchent la quasi-totalité de l'argent gagné
-              Vous serez mis directement en relation avec l'équipe. Ni relais ni intermédiaire. 
-              Qualité professionnelle. Nous ne laisserons aucune trace de XenonLabs dans notre produit final.
-              Nous disposons d'une grande flexibilité. Payez en 1, 2 ou 4 fois sans frais.
-              Toutes nos offres d'hebergement sont d'une grande qualité, à des prix très bas.
+              <ul className="sdesc-list">
+                <li>Nous n'avons pas de grille tarifaire, nous choisissions avec vous un prix correct et cohérent.</li>
+                <li>Nos développeurs et graphistes sont indépendant et touchent la quasi-totalité de l'argent gagné.</li>
+                <li>Vous serez mis directement en relation avec l'équipe. Ni relais ni intermédiaire.</li>
+                <li>Qualité professionnelle. Nous ne laisserons aucune trace de XenonLabs dans notre produit final.</li>
+                <li>Nous disposons d'une grande flexibilité. Payez en 1, 2 ou 4 fois sans frais.</li>
+                <li>Toutes nos offres d'hebergement sont d'une grande qualité, à des prix très bas.</li>
+              </ul>
             </div>
           </div>
         </div>
