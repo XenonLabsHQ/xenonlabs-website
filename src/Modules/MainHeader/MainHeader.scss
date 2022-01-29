@@ -24,6 +24,7 @@
   padding: 0 15px;
   z-index: 999;
   border-bottom: 1px solid #505050b3;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.349);
 
   @supports (backdrop-filter: blur()) {
     backdrop-filter: blur(20px);
