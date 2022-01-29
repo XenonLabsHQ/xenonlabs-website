@@ -27,18 +27,29 @@ const HomeView = () => {
 
         <div className="section section-aboutus" id="aboutus">
           <div className="section-text">
-            <div className="section-title">Qui sommes nous ?</div>
+            <div className="section-title">Pourquoi nous choisir ?</div>
             <div className="section-description">
-              A Propos ...
+              Nous n'avons pas de grille tarifaire, nous choisissions avec vous un prix correct et cohérent 
+              Nos développeurs et graphistes sont indépendant et touchent la quasi-totalité de l'argent gagné
+              Vous serez mis directement en relation avec l'équipe. Ni relais ni intermédiaire. 
+              Qualité professionnelle. Nous ne laisserons aucune trace de XenonLabs dans notre produit final.
+              Nous disposons d'une grande flexibilité. Payez en 1, 2 ou 4 fois sans frais.
+              Toutes nos offres d'hebergement sont d'une grande qualité, à des prix très bas.
             </div>
           </div>
         </div>
 
         <div className="section section-contactus" id="contactus">
           <div className="section-text">
-            <div className="section-title">Un Projet ? Contactez-Nous !</div>
-            <div className="section-description">
-              Contact details ...
+            <div className="section-title">Notre équipe</div>
+            <div className="cards-members">
+              <div className="member">
+                <img className="avatar" />
+                <div className="member-infos">
+                  <div className="member-name">Sun.</div>
+                  <div className="member-description">Developer of this site</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
