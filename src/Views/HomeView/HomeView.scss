@@ -50,6 +50,11 @@
     height: 75vh;
     background-color: #121511;
     color: white;
+    
+    .section-title, .section-description {
+      align-self: flex-end;
+    }
+
   }
 
   &-contactus {
