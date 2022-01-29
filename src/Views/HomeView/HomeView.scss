@@ -1,5 +1,31 @@
 @import "../../Common/main.scss";
 
+.cards-members {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .member {
+    width: fit-content;
+
+    .member-infos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .member-name {
+        font-size: 30pt;
+        font-weight: 600;
+      }
+
+      .member-description {
+        font-size: 15pt;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
 .section {
   border-bottom: 1px solid #505050b3;
 
