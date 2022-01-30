@@ -29,6 +29,10 @@
       @media screen and (max-width: 1080px) {
         height: 80px;
       }
+
+      @media screen and (max-width: 500px) {
+        height: 15vw;
+      }
     }
 
     .member-infos {
@@ -51,6 +55,8 @@
 
 .section {
   border-bottom: 1px solid #505050b3;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.349);
 
   .section-text {
     display: flex;
@@ -136,6 +142,17 @@
     .section-text {
       color: white;
       align-items: center;
+    }
+  }
+
+  &-discord {
+    height: 70vh;
+    background-color: rgb(201, 114, 1);
+    
+    .sdesc-contactlinks {
+      display: flex;
+      gap: 10px;
+      font-weight: 600;
     }
   }
 }
