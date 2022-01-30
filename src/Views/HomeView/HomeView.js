@@ -1,6 +1,14 @@
 import React from "react";
 import MainHeader from "../../Modules/MainHeader/MainHeader";
 import "./HomeView.scss";
+import avatar_sun from "../../Common/Assets/Avatars/Sun.webp";
+import avatar_fluxy from "../../Common/Assets/Avatars/Fluxy.webp";
+import avatar_omega from "../../Common/Assets/Avatars/Omega.webp";
+import avatar_taonix from "../../Common/Assets/Avatars/Taonix.webp";
+import avatar_voltis from "../../Common/Assets/Avatars/Voltis.gif";
+import avatar_wats from "../../Common/Assets/Avatars/Wats_.webp";
+import avatar_yalis from "../../Common/Assets/Avatars/Yalis.webp";
+
 
 const HomeView = () => {
   return (
@@ -46,9 +54,57 @@ const HomeView = () => {
             <div className="section-title">Notre équipe</div>
             <div className="cards-members">
               <div className="member">
-                <img className="avatar" />
+                <img className="avatar" src={avatar_sun} />
                 <div className="member-infos">
                   <div className="member-name">Sun.</div>
+                  <div className="member-description">Developer of this site</div>
+                </div>
+              </div>
+
+              <div className="member">
+                <img className="avatar" src={avatar_fluxy} />
+                <div className="member-infos">
+                  <div className="member-name">Fluxy.</div>
+                  <div className="member-description">Developer of this site</div>
+                </div>
+              </div>
+
+              <div className="member">
+                <img className="avatar" src={avatar_omega} />
+                <div className="member-infos">
+                  <div className="member-name">Omega</div>
+                  <div className="member-description">Developer of this site</div>
+                </div>
+              </div>
+              
+              <div className="member">
+                <img className="avatar" src={avatar_taonix} />
+                <div className="member-infos">
+                  <div className="member-name">Taonix</div>
+                  <div className="member-description">Developer of this site</div>
+                </div>
+              </div>
+
+              <div className="member">
+                <img className="avatar" src={avatar_voltis} />
+                <div className="member-infos">
+                  <div className="member-name">Voltis</div>
+                  <div className="member-description">Developer of this site</div>
+                </div>
+              </div>
+
+              <div className="member">
+                <img className="avatar" src={avatar_yalis} />
+                <div className="member-infos">
+                  <div className="member-name">Yalis</div>
+                  <div className="member-description">Developer of this site</div>
+                </div>
+              </div>
+
+              <div className="member">
+                <img className="avatar" src={avatar_wats} />
+                <div className="member-infos">
+                  <div className="member-name">Wats</div>
                   <div className="member-description">Developer of this site</div>
                 </div>
               </div>
