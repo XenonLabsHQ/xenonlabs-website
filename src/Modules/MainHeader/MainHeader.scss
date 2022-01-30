@@ -32,9 +32,7 @@
   }
 
   @media screen and (max-width: 1080px) {
-    height: 100vh;
-    background: none;
-    z-index: -1;
+    display: none;
   }
 
   .mh-title {
@@ -50,13 +48,6 @@
     .mhtilx-dot {
       font-weight: 500;
     }
-
-    @media screen and (max-width: 1080px) {
-      font-size: 15vw;
-      user-select: none;
-      opacity: 0;
-      animation: 0.5s anim-mobile-logo ease-in-out forwards;
-    }
   }
 
   .mh-menuitems {
@@ -64,10 +55,6 @@
     align-items: center;
     gap: 20px;
     user-select: none;
-    
-    @media screen and (max-width: 1080px) {
-      display: none;
-    }
 
     .mhmi-item {
       color: white;
