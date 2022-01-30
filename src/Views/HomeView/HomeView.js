@@ -9,7 +9,6 @@ import avatar_voltis from "../../Common/Assets/Avatars/Voltis.gif";
 import avatar_wats from "../../Common/Assets/Avatars/Wats_.webp";
 import avatar_yalis from "../../Common/Assets/Avatars/Yalis.webp";
 
-
 const HomeView = () => {
   return (
     <div className="activity activity-homeview">
@@ -38,12 +37,30 @@ const HomeView = () => {
             <div className="section-title">Pourquoi nous choisir ?</div>
             <div className="section-description">
               <ul className="sdesc-list">
-                <li>Nous n'avons pas de grille tarifaire, nous choisissions avec vous un prix correct et cohérent.</li>
-                <li>Nos développeurs et graphistes sont indépendant et touchent la quasi-totalité de l'argent gagné.</li>
-                <li>Vous serez mis directement en relation avec l'équipe. Ni relais ni intermédiaire.</li>
-                <li>Qualité professionnelle. Nous ne laisserons aucune trace de XenonLabs dans notre produit final.</li>
-                <li>Nous disposons d'une grande flexibilité. Payez en 1, 2 ou 4 fois sans frais.</li>
-                <li>Toutes nos offres d'hebergement sont d'une grande qualité, à des prix très bas.</li>
+                <li>
+                  Nous n'avons pas de grille tarifaire, nous choisissions avec
+                  vous un prix correct et cohérent.
+                </li>
+                <li>
+                  Nos développeurs et graphistes sont indépendant et touchent la
+                  quasi-totalité de l'argent gagné.
+                </li>
+                <li>
+                  Vous serez mis directement en relation avec l'équipe. Ni
+                  relais ni intermédiaire.
+                </li>
+                <li>
+                  Qualité professionnelle. Nous ne laisserons aucune trace de
+                  XenonLabs dans notre produit final.
+                </li>
+                <li>
+                  Nous disposons d'une grande flexibilité. Payez en 1, 2 ou 4
+                  fois sans frais.
+                </li>
+                <li>
+                  Toutes nos offres d'hebergement sont d'une grande qualité, à
+                  des prix très bas.
+                </li>
               </ul>
             </div>
           </div>
@@ -53,7 +70,7 @@ const HomeView = () => {
           <div className="section-text">
             <div className="section-title">Notre équipe</div>
             <div className="cards-members">
-            <div className="member">
+              <div className="member">
                 <img className="avatar" src={avatar_voltis} />
                 <div className="member-infos">
                   <div className="member-name">Voltis</div>
@@ -68,7 +85,7 @@ const HomeView = () => {
                   <div className="member-description">Co-Fondateur.</div>
                 </div>
               </div>
-              
+
               <div className="member">
                 <img className="avatar" src={avatar_sun} />
                 <div className="member-infos">
@@ -89,10 +106,12 @@ const HomeView = () => {
                 <img className="avatar" src={avatar_omega} />
                 <div className="member-infos">
                   <div className="member-name">Omega</div>
-                  <div className="member-description">Travaille avec JS & Lua.</div>
+                  <div className="member-description">
+                    Travaille avec JS & Lua.
+                  </div>
                 </div>
               </div>
-              
+
               <div className="member">
                 <img className="avatar" src={avatar_taonix} />
                 <div className="member-infos">
@@ -117,8 +136,16 @@ const HomeView = () => {
             <div className="section-title">Contactez-nous</div>
             <div className="section-description">
               <div className="sdesc-contactlinks">
-                <a href="https://discord.gg/V2XyYSSFdD" target="_blank" rel="noreferrer">Nous joindre sur Discord</a>
-              <a href="mailto:contact@xenonlabs.fr">Nous contacter par mail</a>
+                <a
+                  href="https://discord.gg/V2XyYSSFdD"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Nous joindre sur Discord
+                </a>
+                <a href="mailto:contact@xenonlabs.fr">
+                  Nous contacter par mail
+                </a>
               </div>
             </div>
           </div>

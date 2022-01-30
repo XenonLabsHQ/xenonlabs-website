@@ -117,13 +117,13 @@
     height: 80vh;
     background-color: #222521;
     color: white;
-    
 
-    .section-description{
+    .section-description {
       max-width: 33em !important;
     }
 
-    .section-title, .section-description {
+    .section-title,
+    .section-description {
       align-self: flex-end;
     }
 
@@ -132,7 +132,6 @@
       flex-direction: column;
       gap: 20px;
     }
-
   }
 
   &-contactus {
@@ -148,7 +147,7 @@
   &-discord {
     height: 70vh;
     background-color: #207044;
-    
+
     .sdesc-contactlinks {
       display: flex;
       gap: 10px;
