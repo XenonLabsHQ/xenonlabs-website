@@ -57,14 +57,14 @@ const HomeView = () => {
                 <img className="avatar" src={avatar_sun} />
                 <div className="member-infos">
                   <div className="member-name">Sun.</div>
-                  <div className="member-description">Developer of this site</div>
+                  <div className="member-description">Fullstack dev.</div>
                 </div>
               </div>
 
               <div className="member">
                 <img className="avatar" src={avatar_fluxy} />
                 <div className="member-infos">
-                  <div className="member-name">Fluxy.</div>
+                  <div className="member-name">Fluxy</div>
                   <div className="member-description">Developer of this site</div>
                 </div>
               </div>
@@ -73,7 +73,7 @@ const HomeView = () => {
                 <img className="avatar" src={avatar_omega} />
                 <div className="member-infos">
                   <div className="member-name">Omega</div>
-                  <div className="member-description">Developer of this site</div>
+                  <div className="member-description">Working with JS & Lua</div>
                 </div>
               </div>
               
