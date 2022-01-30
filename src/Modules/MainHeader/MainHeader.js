@@ -12,6 +12,8 @@ const MainHeader = () => {
         <a href="#home" className="mhmi-item">Acceuil</a>
         <a href="#aboutus" className="mhmi-item">Pourquoi nous ?</a>
         <a href="#contactus" className="mhmi-item">Notre équipe</a>
+        <a href="#discord" className="mhmi-item">Contactez-nous</a>
+
         <div className="separator separator-vertical" />
         <a href="https://panel.xenonlabs.fr/" className="mhmi-item">Panel Serveurs</a>
       </div>
