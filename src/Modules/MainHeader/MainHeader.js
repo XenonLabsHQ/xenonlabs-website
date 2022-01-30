@@ -11,7 +11,7 @@ const MainHeader = () => {
 
       <div className="mh-menuitems">
         <a href="#home" className="mhmi-item">
-          Acceuil
+          Accueil
         </a>
         <a href="#aboutus" className="mhmi-item">
           Pourquoi nous ?
