@@ -147,12 +147,16 @@
 
   &-discord {
     height: 70vh;
-    background-color: rgb(201, 114, 1);
+    background-color: #207044;
     
     .sdesc-contactlinks {
       display: flex;
       gap: 10px;
       font-weight: 600;
+
+      a {
+        color: #222521;
+      }
     }
   }
 }
