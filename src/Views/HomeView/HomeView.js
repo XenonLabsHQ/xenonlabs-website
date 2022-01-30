@@ -53,6 +53,22 @@ const HomeView = () => {
           <div className="section-text">
             <div className="section-title">Notre équipe</div>
             <div className="cards-members">
+            <div className="member">
+                <img className="avatar" src={avatar_voltis} />
+                <div className="member-infos">
+                  <div className="member-name">Voltis</div>
+                  <div className="member-description">Fondateur.</div>
+                </div>
+              </div>
+
+              <div className="member">
+                <img className="avatar" src={avatar_yalis} />
+                <div className="member-infos">
+                  <div className="member-name">Yalis</div>
+                  <div className="member-description">Co-Fondateur.</div>
+                </div>
+              </div>
+              
               <div className="member">
                 <img className="avatar" src={avatar_sun} />
                 <div className="member-infos">
@@ -65,7 +81,7 @@ const HomeView = () => {
                 <img className="avatar" src={avatar_fluxy} />
                 <div className="member-infos">
                   <div className="member-name">Fluxy</div>
-                  <div className="member-description">Developer of this site</div>
+                  <div className="member-description">Developpeur Java.</div>
                 </div>
               </div>
 
@@ -73,7 +89,7 @@ const HomeView = () => {
                 <img className="avatar" src={avatar_omega} />
                 <div className="member-infos">
                   <div className="member-name">Omega</div>
-                  <div className="member-description">Working with JS & Lua</div>
+                  <div className="member-description">Travaille avec JS & Lua.</div>
                 </div>
               </div>
               
@@ -81,23 +97,7 @@ const HomeView = () => {
                 <img className="avatar" src={avatar_taonix} />
                 <div className="member-infos">
                   <div className="member-name">Taonix</div>
-                  <div className="member-description">Developer of this site</div>
-                </div>
-              </div>
-
-              <div className="member">
-                <img className="avatar" src={avatar_voltis} />
-                <div className="member-infos">
-                  <div className="member-name">Voltis</div>
-                  <div className="member-description">Developer of this site</div>
-                </div>
-              </div>
-
-              <div className="member">
-                <img className="avatar" src={avatar_yalis} />
-                <div className="member-infos">
-                  <div className="member-name">Yalis</div>
-                  <div className="member-description">Developer of this site</div>
+                  <div className="member-description">Graphiste.</div>
                 </div>
               </div>
 
@@ -105,8 +105,20 @@ const HomeView = () => {
                 <img className="avatar" src={avatar_wats} />
                 <div className="member-infos">
                   <div className="member-name">Wats</div>
-                  <div className="member-description">Developer of this site</div>
+                  <div className="member-description">Graphiste.</div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="section section-discord" id="discord">
+          <div className="section-text">
+            <div className="section-title">Contactez-nous</div>
+            <div className="section-description">
+              <div className="sdesc-contactlinks">
+                <a href="https://discord.gg/V2XyYSSFdD" target="_blank" rel="noreferrer">Nous joindre sur Discord</a>
+              <a href="mailto:contact@xenonlabs.fr">Nous contacter par mail</a>
               </div>
             </div>
           </div>
