@@ -74,7 +74,7 @@ const HomeView = () => {
                 <img className="avatar" src={avatar_voltis} />
                 <div className="member-infos">
                   <div className="member-name">Voltis</div>
-                  <div className="member-description">Fondateur.</div>
+                  <div className="member-description">Fondateur & Developpeur Python.</div>
                 </div>
               </div>
 
@@ -141,7 +141,7 @@ const HomeView = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Nous joindre sur Discord
+                  Rejoindre notre Discord
                 </a>
                 <a href="mailto:contact@xenonlabs.fr">
                   Nous contacter par mail
