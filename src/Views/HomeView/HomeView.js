@@ -8,6 +8,7 @@ import avatar_taonix from "../../Common/Assets/Avatars/Taonix.webp";
 import avatar_voltis from "../../Common/Assets/Avatars/Voltis.gif";
 import avatar_wats from "../../Common/Assets/Avatars/Wats_.webp";
 import avatar_yalis from "../../Common/Assets/Avatars/Yalis.webp";
+import avatar_sigma from "../../Common/Assets/Avatars/Sigma.webp";
 
 const HomeView = () => {
   return (
@@ -91,6 +92,14 @@ const HomeView = () => {
                 <div className="member-infos">
                   <div className="member-name">Sun.</div>
                   <div className="member-description">Fullstack dev.</div>
+                </div>
+              </div>
+
+              <div className="member">
+                <img className="avatar" src={avatar_sigma} />
+                <div className="member-infos">
+                  <div className="member-name">Sigma</div>
+                  <div className="member-description">FullStack & Pythonista.</div>
                 </div>
               </div>
 
