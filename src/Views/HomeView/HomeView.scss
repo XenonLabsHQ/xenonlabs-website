@@ -43,11 +43,18 @@
       .member-name {
         font-size: 30pt;
         font-weight: 600;
+
+        @media screen and (max-width: 800px) {
+          font-size: 16pt;
+        }
       }
 
       .member-description {
         font-size: 12pt;
         font-weight: 300;
+        @media screen and (max-width: 800px) {
+          font-size: 9.5pt;
+        }
       }
     }
   }
