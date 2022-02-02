@@ -57,6 +57,7 @@ export default {
     display: none
 
   .mh-title
+    display: flex
     font-size: 30pt
     color: white
     font-weight: 200
