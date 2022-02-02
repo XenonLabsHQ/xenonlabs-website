@@ -34,20 +34,20 @@
                 quasi-totalité de l'argent gagné.
               </li>
               <li>
-                Vous serez mis directement en relation avec l'équipe. Ni
-                relais ni intermédiaire.
+                Vous serez mis directement en relation avec l'équipe. Ni relais
+                ni intermédiaire.
               </li>
               <li>
                 Qualité professionnelle. Nous ne laisserons aucune trace de
                 XenonLabs dans notre produit final.
               </li>
               <li>
-                Nous disposons d'une grande flexibilité. Payez en 1, 2 ou 4
-                fois sans frais.
+                Nous disposons d'une grande flexibilité. Payez en 1, 2 ou 4 fois
+                sans frais.
               </li>
               <li>
-                Toutes nos offres d'hebergement sont d'une grande qualité, à
-                des prix très bas.
+                Toutes nos offres d'hebergement sont d'une grande qualité, à des
+                prix très bas.
               </li>
             </ul>
           </div>
@@ -62,7 +62,9 @@
               <img class="avatar" src="@/assets/members/Voltis.gif" />
               <div class="member-infos">
                 <div class="member-name">Voltis</div>
-                <div class="member-description">Fondateur & Developpeur Python.</div>
+                <div class="member-description">
+                  Fondateur & Developpeur Python.
+                </div>
               </div>
             </div>
 
@@ -102,9 +104,7 @@
               <img class="avatar" src="@/assets/members/Omega.webp" />
               <div class="member-infos">
                 <div class="member-name">Omega</div>
-                <div class="member-description">
-                  Travaille avec JS & Lua.
-                </div>
+                <div class="member-description">Travaille avec JS & Lua.</div>
               </div>
             </div>
 
@@ -156,8 +156,8 @@ import TheHeader from "@/components/TheHeader.vue";
 export default {
   name: "Home",
   components: {
-    TheHeader
-  }
+    TheHeader,
+  },
 };
 </script>
 

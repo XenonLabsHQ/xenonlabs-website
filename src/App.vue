@@ -1,16 +1,16 @@
 <template>
-	<HomeView/>
+  <HomeView />
 </template>
 
 <script>
-import HomeView from '@/views/HomeView.vue';
+import HomeView from "@/views/HomeView.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HomeView
-  }
-}
+    HomeView,
+  },
+};
 </script>
 
 <style lang="stylus">
@@ -31,5 +31,4 @@ body
   min-height: 100vh
   font-family: "Outfit", sans-serif
   background: var(--bg-darker)
-
 </style>
