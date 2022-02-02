@@ -59,7 +59,7 @@
           <div class="section-title">Notre équipe</div>
           <div class="cards-members">
             <div class="member">
-              <img class="avatar" src="{avatar_voltis}" />
+              <img class="avatar" src="@/assets/members/Voltis.gif" />
               <div class="member-infos">
                 <div class="member-name">Voltis</div>
                 <div class="member-description">Fondateur & Developpeur Python.</div>
@@ -67,7 +67,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="{avatar_yalis}" />
+              <img class="avatar" src="@/assets/members/Yalis.webp" />
               <div class="member-infos">
                 <div class="member-name">Yalis</div>
                 <div class="member-description">Co-Fondateur.</div>
@@ -75,7 +75,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="{avatar_sun}" />
+              <img class="avatar" src="@/assets/members/Sun.webp" />
               <div class="member-infos">
                 <div class="member-name">Sun.</div>
                 <div class="member-description">Fullstack dev.</div>
@@ -83,7 +83,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="{avatar_sigma}" />
+              <img class="avatar" src="@/assets/members/Sigma.webp" />
               <div class="member-infos">
                 <div class="member-name">Sigma</div>
                 <div class="member-description">FullStack & Pythonista.</div>
@@ -91,7 +91,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="{avatar_fluxy}" />
+              <img class="avatar" src="@/assets/members/Fluxy.webp" />
               <div class="member-infos">
                 <div class="member-name">Fluxy</div>
                 <div class="member-description">Developpeur Java.</div>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="{avatar_omega}" />
+              <img class="avatar" src="@/assets/members/Omega.webp" />
               <div class="member-infos">
                 <div class="member-name">Omega</div>
                 <div class="member-description">
@@ -109,7 +109,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="{avatar_taonix}" />
+              <img class="avatar" src="@/assets/members/Taonix.webp" />
               <div class="member-infos">
                 <div class="member-name">Taonix</div>
                 <div class="member-description">Graphiste.</div>
@@ -117,7 +117,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="{avatar_wats}" />
+              <img class="avatar" src="@/assets/members/Wats_.webp" />
               <div class="member-infos">
                 <div class="member-name">Wats</div>
                 <div class="member-description">Graphiste.</div>
