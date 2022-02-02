@@ -1,11 +1,16 @@
 <template>
-	<p>Hello world!</p>
+	<TheHeader/>
 </template>
 
 <script>
-	export default {
-		name: 'App'
-	}
+import TheHeader from '@/components/TheHeader.vue';
+
+export default {
+  name: 'App',
+  components: {
+    TheHeader
+  }
+}
 </script>
 
 <style>
