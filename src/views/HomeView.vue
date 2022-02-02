@@ -63,7 +63,7 @@
               <div class="member-infos">
                 <div class="member-name">Voltis</div>
                 <div class="member-description">
-                  Fondateur & Developpeur Python.
+                  Fondateur & Développeur Python.
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@
               <img class="avatar" src="@/assets/members/Fluxy.webp" />
               <div class="member-infos">
                 <div class="member-name">Fluxy</div>
-                <div class="member-description">Developpeur Java.</div>
+                <div class="member-description">Développeur Java.</div>
               </div>
             </div>
 
