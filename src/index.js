@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Common/main.scss";
-import HomeView from "./Views/HomeView/HomeView";
+import HomeView from "./views/HomeView/HomeView";
 
 ReactDOM.render(
   <React.StrictMode>
