@@ -35,19 +35,17 @@ export default {
 
 
 .main-header
-  background: var(--bg-darker)
   height: 80px
+  background: var(--bg-darker)
   position: sticky
   top: 0
-  overflow: hidden
   display: flex
   align-items: center
-  justify-content: space-around
-  gap: 20vw
-  padding: 0 15px
-  z-index: 999
-  border-bottom: 1px solid #505050b3
+  justify-content: space-between
+  gap: 2em;
+  padding: 0 5%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.349)
+  border-bottom: 1px solid #505050b3
 
   @supports (backdrop-filter: blur())
     backdrop-filter: blur(20px)
