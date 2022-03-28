@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import HomeView from "@/views/HomeView.vue";
+import HomeView from "./views/HomeView.vue";
 
 export default {
   name: "App",
@@ -13,22 +13,25 @@ export default {
 };
 </script>
 
-<style lang="stylus">
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;600&display=swap')
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;600&display=swap');
 
 
-:root
-  --bg-default: #294523
-  --bg-evidence: #74e262
-  --bg-darker: #5bb04c
-  --bg-trans-darker: #57575750
+:root {
+  --bg-default: #294523;
+  --bg-evidence: #74e262;
+  --bg-darker: #5bb04c;
+  --bg-trans-darker: #57575750;
+}
 
-html
-  scroll-behavior: smooth
+html {
+  scroll-behavior: smooth;
+}
 
-body
-  margin: 0
-  min-height: 100vh
-  font-family: "Outfit", sans-serif
-  background: var(--bg-darker)
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background: var(--bg-darker);
+}
 </style>

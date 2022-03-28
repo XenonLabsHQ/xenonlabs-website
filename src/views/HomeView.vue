@@ -59,7 +59,7 @@
           <div class="section-title">Notre équipe</div>
           <div class="cards-members">
             <div class="member">
-              <img class="avatar" src="@/assets/members/Voltis.gif" alt="Voltis's profile picture" />
+              <img class="avatar" src="../assets/members/Voltis.gif" alt="Voltis's profile picture" />
               <div class="member-infos">
                 <div class="member-name">Voltis</div>
                 <div class="member-description">
@@ -69,7 +69,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Yalis.webp"  alt="Yalis's profile picture"/>
+              <img class="avatar" src="../assets/members/Yalis.webp"  alt="Yalis's profile picture"/>
               <div class="member-infos">
                 <div class="member-name">Yalis</div>
                 <div class="member-description">Co-Fondateur.</div>
@@ -77,7 +77,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Sun.webp" alt="Sun's profile picture"/>
+              <img class="avatar" src="../assets/members/Sun.webp" alt="Sun's profile picture"/>
               <div class="member-infos">
                 <div class="member-name">Sun.</div>
                 <div class="member-description">Fullstack dev.</div>
@@ -85,7 +85,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Sigma.webp" alt="Sigma's profile picture"/>
+              <img class="avatar" src="../assets/members/Sigma.webp" alt="Sigma's profile picture"/>
               <div class="member-infos">
                 <div class="member-name">Sigma</div>
                 <div class="member-description">FullStack & Pythonista.</div>
@@ -93,7 +93,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Fluxy.webp" alt="Fluxy's profile picture"/>
+              <img class="avatar" src="../assets/members/Fluxy.webp" alt="Fluxy's profile picture"/>
               <div class="member-infos">
                 <div class="member-name">Fluxy</div>
                 <div class="member-description">Développeur Java.</div>
@@ -101,7 +101,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Omega.webp" alt="Omega's profile picture"/>
+              <img class="avatar" src="../assets/members/Omega.webp" alt="Omega's profile picture"/>
               <div class="member-infos">
                 <div class="member-name">Omega</div>
                 <div class="member-description">Travaille avec JS & Lua.</div>
@@ -109,7 +109,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Taonix.webp" alt="Taonix's profile picture"/>
+              <img class="avatar" src="../assets/members/Taonix.webp" alt="Taonix's profile picture"/>
               <div class="member-infos">
                 <div class="member-name">Taonix</div>
                 <div class="member-description">Graphiste.</div>
@@ -117,7 +117,7 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Wats_.webp" alt="Wats's profile picture"/>
+              <img class="avatar" src="../assets/members/Wats_.webp" alt="Wats's profile picture"/>
               <div class="member-infos">
                 <div class="member-name">Wats</div>
                 <div class="member-description">Graphiste.</div>
@@ -151,7 +151,7 @@
 </template>
 
 <script>
-import TheHeader from "@/components/TheHeader.vue";
+import TheHeader from "../components/TheHeader.vue";
 
 export default {
   name: "Home",
@@ -161,141 +161,171 @@ export default {
 };
 </script>
 
-<style lang="stylus">
-.cards-members
-  display: grid
-  grid-template-columns: repeat(5, 1fr)
-  grid-auto-rows: minmax(100px, auto)
-  gap: 50px
-  place-items: center
+<style lang="scss">
+.cards-members {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 50px;
+  place-items: center;
 
-  @media screen and (max-width: 1080px)
-    grid-template-columns: repeat(3, 1fr)
-    gap: 10px
-    grid-auto-rows: minmax(50px, auto)
-
-  .member
+  @media screen and (max-width: 1080px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+  }
+}
+  .member {
     width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
 
-    .avatar
-      border-radius: 300px
-      border: 1px solid #505050b3
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.349)
-      user-select: none
-      pointer-events: none
+    .avatar {
+      border-radius: 300px;
+      border: 1px solid #505050b3;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.349);
+      user-select: none;
+      pointer-events: none;
 
-      @media screen and (max-width: 1080px)
-        height: 80px
+      @media screen and (max-width: 1080px) {
+        height: 80px;
+      }
 
-      @media screen and (max-width: 500px)
-        height: 15vw
+      @media screen and (max-width: 500px) {
+        height: 15vw;
+      }
+    }
 
-    .member-infos
-      display: flex
-      flex-direction: column
-      align-items: center
+    .member-infos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-      .member-name
-        font-size: 30pt
-        font-weight: 600
+      .member-name {
+        font-size: 30pt;
+        font-weight: 600;
 
-        @media screen and (max-width: 800px)
-          font-size: 16pt
+        @media screen and (max-width: 800px) {
+          font-size: 16pt; 
+        }
+      }
 
-      .member-description
-        font-size: 12pt
-        font-weight: 300
+      .member-description {
+        font-size: 12pt;
+        font-weight: 300;
+      }
 
-        @media screen and (max-width: 800px)
-          font-size: 9.5pt
+        @media screen and (max-width: 800px) {
+          font-size: 9.5pt;
+        }
+  }
 
-.section
-  border-bottom: 1px solid #505050b3
-  color: white
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.349)
+.section {
+  border-bottom: 1px solid #505050b3;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.349);
 
-  .section-text
-    display: flex
-    flex-direction: column
-    justify-content: center
-    height: 100%
-    padding: 0 100px
-    gap: 20px
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 100px;
+    gap: 20px;
 
-    @media screen and (max-width: 1080px)
-      align-items: center
-      justify-content: center
-      padding: 0 80px
+    @media screen and (max-width: 1080px) {
+      align-items: center;
+      justify-content: center;
+      padding: 0 80px;
+    }
+  }
+    
+    @media screen and (max-width: 750px) {
+      padding: 0 30px;
+    }
+    
+    .section-title {
+      font-size: 50pt;
+      font-weight: 600;
 
-    @media screen and (max-width: 750px)
-      padding: 0 30px
+      @media screen and (max-width: 1080px) {
+        font-size: 35pt;
+        align-self: center;
+      }
 
-    .section-title
-      font-size: 50pt
-      font-weight: 600
+      @media screen and (max-width: 750px) {
+        font-size: 5vw;    
+      }
+    }
 
-      @media screen and (max-width: 1080px)
-        font-size: 35pt
-        align-self: center
+    .section-description {
+      max-width: 32em;
+      font-size: 16pt;
+      font-weight: 300;
 
-      @media screen and (max-width: 750px)
-        font-size: 5vw
+      @media screen and (max-width: 650px) {
+        font-size: 12pt;
+        font-weight: 500;
+      }
 
-    .section-description
-      max-width: 32em
-      font-size: 16pt
-      font-weight: 300
+      @media screen and (max-width: 1080px) {
+        align-self: center;  
+      }
+    }
 
-      @media screen and (max-width: 650px)
-        font-size: 12pt
-        font-weight: 500
+  &-home {
+    background-color: var(--bg-darker);
+    height: 100vh;
+    color: white;
+  }
+  
+  &-aboutus {
+    padding: 100px 0;
+    height: 80vh;
+    background-color: #222521;
+    color: white;
 
-      @media screen and (max-width: 1080px)
-        align-self: center
-
-  &-home
-    background-color: var(--bg-darker)
-    height: 100vh
-    color: white
-
-  &-aboutus
-    padding: 100px 0
-    height: 80vh
-    background-color: #222521
-    color: white
-
-    .section-description
-      max-width: 33em !important
-
+    .section-description {
+      max-width: 33em !important;
+    }
+    
     .section-title,
-    .section-description
-      align-self: flex-end
+    .section-description {
+      align-self: flex-end;
+    }
 
-    .sdesc-list
-      display: flex
-      flex-direction: column
-      gap: 20px
+    .sdesc-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
 
-  &-contactus
-    background-color: #217c4a
-    height: 110vh
+  &-contactus {
+    background-color: #217c4a;
+    height: 110vh;
+  }
+    .section-text {
+      color: white;
+      align-items: center;
+    }
 
-    .section-text
-      color: white
-      align-items: center
 
-  &-discord
-    height: 70vh
-    background-color: #207044
+  &-discord {
+    height: 70vh;
+    background-color: #207044;
 
-    .sdesc-contactlinks
-      display: flex
-      gap: 10px
-      font-weight: 600
+    .sdesc-contactlinks {
+      display: flex;
+      gap: 10px;
+      font-weight: 600;
 
-      a
-        color: #222521
+      a {
+        color: #222521;
+      }
+    }
+  }
+}
 </style>
