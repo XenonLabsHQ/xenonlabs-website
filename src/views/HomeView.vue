@@ -213,8 +213,14 @@ export default {
       }
 
       .member-description {
+        display: inline;
         font-size: 12pt;
         font-weight: 300;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 150px;
+        text-align: center;
+        text-overflow: ellipsis;
       }
 
         @media screen and (max-width: 800px) {
