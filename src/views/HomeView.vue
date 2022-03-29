@@ -174,6 +174,12 @@ export default {
     gap: 10px;
     grid-auto-rows: minmax(50px, auto);
   }
+
+  @media screen and (max-width: 500px) {
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
   .member {
     width: fit-content;
@@ -208,7 +214,7 @@ export default {
         font-weight: 600;
 
         @media screen and (max-width: 800px) {
-          font-size: 16pt; 
+          font-size: 5vw; 
         }
       }
 
@@ -221,12 +227,12 @@ export default {
         width: 150px;
         text-align: center;
         text-overflow: ellipsis;
-      }
-
+      
         @media screen and (max-width: 800px) {
           font-size: 9.5pt;
-        }
-  }
+        }        
+    }
+}
 
 .section {
   border-bottom: 1px solid #505050b3;
@@ -246,23 +252,31 @@ export default {
       justify-content: center;
       padding: 0 80px;
     }
+
+    @media screen and (max-width: 550px) {
+      padding: 0 20px;
+    }
+
   }
     
-    @media screen and (max-width: 750px) {
-      padding: 0 30px;
+    @media screen and (max-width: 550px) {
+      padding: 0;
     }
     
     .section-title {
       font-size: 50pt;
       font-weight: 600;
+      white-space: nowrap;
 
       @media screen and (max-width: 1080px) {
         font-size: 35pt;
         align-self: center;
       }
 
-      @media screen and (max-width: 750px) {
-        font-size: 5vw;    
+      @media screen and (max-width: 550px) {
+        font-size: 8vw;    
+        text-align: center;
+        align-self: center !important;
       }
     }
 
