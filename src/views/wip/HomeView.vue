@@ -1,8 +1,13 @@
 <template>
-	<p>Hello world!</p>
+	<TheHeader/>
 </template>
 
-<script></script>
+<script>
+import TheHeader from "@/components/wip/TheHeader.vue";
+export default {
+	components: {TheHeader}
+}
+</script>
 
 <style lang="scss">
 :root {
@@ -34,5 +39,9 @@ body {
 	font-size: clamp(12px, 1vw, 18px);
 	background-color: var(--bg);
 	color: var(--text-color);
+}
+
+#app {
+	padding-inline: 20px;
 }
 </style>
