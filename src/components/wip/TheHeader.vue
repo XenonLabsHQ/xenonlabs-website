@@ -34,6 +34,7 @@ export default {
     font-size: 2rem;
     text-decoration: none;
     font-weight: 200;
+    z-index: 2;
 
     &__accent {
       font-weight: bold;

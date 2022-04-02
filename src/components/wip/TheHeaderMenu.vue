@@ -1,5 +1,12 @@
 <template>
-  <div class="cmpnt menu-cmpnt">
+  <nav class="menu-cmpnt">
+    <ul class="menu-items" :class="{ 'menu-open': isOpen }">
+      <li class="menu-item">Accueil</li>
+      <li class="menu-item">Pourquoi nous</li>
+      <li class="menu-item">Notre équipe</li>
+      <li class="menu-item">Contact</li>
+    </ul>
+
     <div class="menu-btn" @click="isOpen = !isOpen">
       <div class="hamburger">
         <div class="ham-line" />
@@ -8,18 +15,8 @@
       </div>
     </div>
 
-    <div class="menu-overlay" :class="{ 'menu-overlay-open': isOpen }">
-      <div class="menu-ov-container">
-        <div class="menu-items">
-          <div class="menu-item">Accueil</div>
-          <div class="menu-item">Pourquoi nous</div>
-          <div class="menu-item">Notre équipe</div>
-          <div class="menu-item">Contact</div>
-        </div>
-      </div>
-    </div>
     <div class="menu-bar"></div>
-  </div>
+  </nav>
 </template>
 
 <script>
@@ -33,15 +30,15 @@ export default {
   },
 
   created() {
-    window.addEventListener("resize", this.onRezize);
+    window.addEventListener("resize", this.onResize);
   },
 
   unmounted() {
-    window.removeEventListener("resize", this.onRezize);
+    window.removeEventListener("resize", this.onResize);
   },
 
   methods: {
-    onRezize() {
+    onResize() {
       this.isOpen = false;
     },
   },
@@ -90,43 +87,46 @@ export default {
     @media screen and (max-width: 1080px) {
       display: initial;
     }
-
-    &-open {
-      z-index: 1;
-      opacity: 1;
-    }
-
-    .menu-ov-container {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-      .menu-items {
-        padding: 100px;
-        user-select: none;
-
-        .menu-item {
-          text-align: center;
-          text-overflow: ellipsis;
-          white-space: nowrap;
-          font-size: 32pt;
-          font-weight: 600;
-          color: white;
-          padding: 15px 20px;
-          transition: color 0.1s ease-in-out;
-
-          @media screen and (max-width: 550px) {
-            padding: 15px 0;
-            font-size: 8vw;
-          }
-
-          &:hover {
-            color: var(--accent-2nd);
-          }
-        }
-      }
-    }
   }
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+  padding: 0;
+  opacity: 0;
+
+  background-color: rgb(#000, 75%);
+  transition: all 0.1s ease-in-out;
+  margin-block: 0;
+}
+
+.menu-item {
+  list-style-type: none;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 32pt;
+  font-weight: 600;
+  color: white;
+  padding: 15px 20px;
+
+  @media screen and (max-width: 550px) {
+    padding: 15px 0;
+    font-size: 8vw;
+  }
+
+  &:hover {
+    color: var(--accent-2nd);
+  }
+}
+
+.menu-open {
+  opacity: 1;
 }
 </style>
