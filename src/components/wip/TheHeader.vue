@@ -4,16 +4,16 @@
       <span class="header__wordmark__accent">Xenon</span>Labs.
     </a>
 
-    <MenuCmpnt />
+    <the-header-menu />
   </header>
 </template>
 
 <script>
-import MenuCmpnt from "@/components/wip/MenuCmpnt.vue";
+import TheHeaderMenu from "@/components/wip/TheHeaderMenu.vue";
 
 export default {
   name: "TheHeader",
-  components: { MenuCmpnt },
+  components: { TheHeaderMenu },
   methods: {
     debug() {
       console.log("clicked");

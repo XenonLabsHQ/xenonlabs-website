@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: "MenuCmpnt",
+  name: "TheHeaderMenu",
 
   created() {
     window.addEventListener("resize", this.onRezize);
