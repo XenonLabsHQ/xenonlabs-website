@@ -14,11 +14,6 @@ import TheHeaderMenu from "@/components/wip/TheHeaderMenu.vue";
 export default {
   name: "TheHeader",
   components: { TheHeaderMenu },
-  methods: {
-    debug() {
-      console.log("clicked");
-    },
-  },
 };
 </script>
 
