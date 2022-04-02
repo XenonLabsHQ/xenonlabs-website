@@ -1,7 +1,11 @@
 <template>
   <div class="cmpnt menu-cmpnt">
     <div class="menu-btn" @click="isOpen = !isOpen">
-      <img src="@/assets/icons/hamburger.svg" alt="" />
+      <div class="hamburger">
+        <div class="ham-line" />
+        <div class="ham-line" />
+        <div class="ham-line" />
+      </div>
     </div>
 
     <div class="menu-overlay" :class="{ 'menu-overlay-open': isOpen }">
@@ -55,6 +59,19 @@ export default {
     @media screen and (max-width: 1080px) {
       display: initial;
     }
+
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      width: 30px;
+
+      .ham-line {
+        z-index: 2;
+        height: 3px;
+        background-color: white;
+      }
+    }
   }
 
   .menu-overlay {
@@ -90,10 +107,18 @@ export default {
 
         .menu-item {
           text-align: center;
-          font-size: 30pt;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 32pt;
+          font-weight: 600;
           color: white;
           padding: 15px 20px;
           transition: color 0.1s ease-in-out;
+
+          @media screen and (max-width: 550px) {
+            padding: 15px 0;
+            font-size: 8vw;
+          }
 
           &:hover {
             color: var(--accent-2nd);
