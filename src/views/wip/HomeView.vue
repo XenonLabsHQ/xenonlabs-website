@@ -40,6 +40,7 @@ body {
   font-size: clamp(12px, 1vw, 18px);
   background-color: var(--bg);
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 #app {
