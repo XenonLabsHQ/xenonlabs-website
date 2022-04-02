@@ -59,7 +59,11 @@
           <div class="section-title">Notre équipe</div>
           <div class="cards-members">
             <div class="member">
-              <img class="avatar" src="@/assets/members/Voltis.gif" alt="Voltis's profile picture" />
+              <img
+                class="avatar"
+                src="@/assets/members/Voltis.gif"
+                alt="Voltis's profile picture"
+              />
               <div class="member-infos">
                 <div class="member-name">Voltis</div>
                 <div class="member-description">
@@ -69,7 +73,11 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Yalis.webp"  alt="Yalis's profile picture"/>
+              <img
+                class="avatar"
+                src="@/assets/members/Yalis.webp"
+                alt="Yalis's profile picture"
+              />
               <div class="member-infos">
                 <div class="member-name">Yalis</div>
                 <div class="member-description">Co-Fondateur.</div>
@@ -77,7 +85,11 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Sun.webp" alt="Sun's profile picture"/>
+              <img
+                class="avatar"
+                src="@/assets/members/Sun.webp"
+                alt="Sun's profile picture"
+              />
               <div class="member-infos">
                 <div class="member-name">Sun.</div>
                 <div class="member-description">Fullstack dev.</div>
@@ -85,7 +97,11 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Sigma.webp" alt="Sigma's profile picture"/>
+              <img
+                class="avatar"
+                src="@/assets/members/Sigma.webp"
+                alt="Sigma's profile picture"
+              />
               <div class="member-infos">
                 <div class="member-name">Sigma</div>
                 <div class="member-description">FullStack & Pythonista.</div>
@@ -93,7 +109,11 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Fluxy.webp" alt="Fluxy's profile picture"/>
+              <img
+                class="avatar"
+                src="@/assets/members/Fluxy.webp"
+                alt="Fluxy's profile picture"
+              />
               <div class="member-infos">
                 <div class="member-name">Fluxy</div>
                 <div class="member-description">Développeur Java.</div>
@@ -101,7 +121,11 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Omega.webp" alt="Omega's profile picture"/>
+              <img
+                class="avatar"
+                src="@/assets/members/Omega.webp"
+                alt="Omega's profile picture"
+              />
               <div class="member-infos">
                 <div class="member-name">Omega</div>
                 <div class="member-description">Travaille avec JS & Lua.</div>
@@ -109,17 +133,13 @@
             </div>
 
             <div class="member">
-              <img class="avatar" src="@/assets/members/Taonix.webp" alt="Taonix's profile picture"/>
+              <img
+                class="avatar"
+                src="@/assets/members/Taonix.webp"
+                alt="Taonix's profile picture"
+              />
               <div class="member-infos">
                 <div class="member-name">Taonix</div>
-                <div class="member-description">Graphiste.</div>
-              </div>
-            </div>
-
-            <div class="member">
-              <img class="avatar" src="@/assets/members/Wats_.webp" alt="Wats's profile picture"/>
-              <div class="member-infos">
-                <div class="member-name">Wats</div>
                 <div class="member-description">Graphiste.</div>
               </div>
             </div>
@@ -179,59 +199,58 @@ export default {
     gap: 15px;
     grid-template-columns: repeat(2, 1fr);
   }
-
 }
-  .member {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.member {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 300px;
+  border: 1px solid #505050b3;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.349);
+  user-select: none;
+  pointer-events: none;
+
+  @media screen and (max-width: 1080px) {
+    height: 80px;
   }
 
-    .avatar {
-      border-radius: 300px;
-      border: 1px solid #505050b3;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.349);
-      user-select: none;
-      pointer-events: none;
+  @media screen and (max-width: 500px) {
+    height: 15vw;
+  }
+}
 
-      @media screen and (max-width: 1080px) {
-        height: 80px;
-      }
+.member-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-      @media screen and (max-width: 500px) {
-        height: 15vw;
-      }
+  .member-name {
+    font-size: 30pt;
+    font-weight: 600;
+
+    @media screen and (max-width: 800px) {
+      font-size: 5vw;
     }
+  }
 
-    .member-infos {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+  .member-description {
+    display: inline;
+    font-size: 12pt;
+    font-weight: 300;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    text-overflow: ellipsis;
 
-      .member-name {
-        font-size: 30pt;
-        font-weight: 600;
-
-        @media screen and (max-width: 800px) {
-          font-size: 5vw; 
-        }
-      }
-
-      .member-description {
-        display: inline;
-        font-size: 12pt;
-        font-weight: 300;
-        white-space: nowrap;
-        overflow: hidden;
-        width: 150px;
-        text-align: center;
-        text-overflow: ellipsis;
-      
-        @media screen and (max-width: 800px) {
-          font-size: 9.5pt;
-        }        
+    @media screen and (max-width: 800px) {
+      font-size: 9.5pt;
     }
+  }
 }
 
 .section {
@@ -256,51 +275,50 @@ export default {
     @media screen and (max-width: 550px) {
       padding: 0 20px;
     }
-
   }
-    
+
+  @media screen and (max-width: 550px) {
+    padding: 0;
+  }
+
+  .section-title {
+    font-size: 50pt;
+    font-weight: 600;
+    white-space: nowrap;
+
+    @media screen and (max-width: 1080px) {
+      font-size: 35pt;
+      align-self: center;
+    }
+
     @media screen and (max-width: 550px) {
-      padding: 0;
+      font-size: 8vw;
+      text-align: center;
+      align-self: center !important;
     }
-    
-    .section-title {
-      font-size: 50pt;
-      font-weight: 600;
-      white-space: nowrap;
+  }
 
-      @media screen and (max-width: 1080px) {
-        font-size: 35pt;
-        align-self: center;
-      }
+  .section-description {
+    max-width: 32em;
+    font-size: 16pt;
+    font-weight: 300;
 
-      @media screen and (max-width: 550px) {
-        font-size: 8vw;    
-        text-align: center;
-        align-self: center !important;
-      }
+    @media screen and (max-width: 650px) {
+      font-size: 12pt;
+      font-weight: 500;
     }
 
-    .section-description {
-      max-width: 32em;
-      font-size: 16pt;
-      font-weight: 300;
-
-      @media screen and (max-width: 650px) {
-        font-size: 12pt;
-        font-weight: 500;
-      }
-
-      @media screen and (max-width: 1080px) {
-        align-self: center;  
-      }
+    @media screen and (max-width: 1080px) {
+      align-self: center;
     }
+  }
 
   &-home {
     background-color: var(--bg-darker);
     height: 100vh;
     color: white;
   }
-  
+
   &-aboutus {
     padding: 100px 0;
     height: 80vh;
@@ -310,7 +328,7 @@ export default {
     .section-description {
       max-width: 33em !important;
     }
-    
+
     .section-title,
     .section-description {
       align-self: flex-end;
@@ -327,11 +345,10 @@ export default {
     background-color: #217c4a;
     height: 110vh;
   }
-    .section-text {
-      color: white;
-      align-items: center;
-    }
-
+  .section-text {
+    color: white;
+    align-items: center;
+  }
 
   &-discord {
     height: 70vh;
