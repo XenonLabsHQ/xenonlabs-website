@@ -3,7 +3,7 @@
     <TheHeader />
 
     <div class="sections">
-      <div class="section section-home" id="home">
+      <div id="home" class="section section-home">
         <div class="section-text">
           <div class="section-title">XenonLabs, Bienvenue !</div>
           <div class="section-description">
@@ -20,7 +20,7 @@
         </div>
       </div>
 
-      <div class="section section-aboutus" id="aboutus">
+      <div id="aboutus" class="section section-aboutus">
         <div class="section-text">
           <div class="section-title">Pourquoi nous choisir ?</div>
           <div class="section-description">
@@ -54,7 +54,7 @@
         </div>
       </div>
 
-      <div class="section section-contactus" id="contactus">
+      <div id="contactus" class="section section-contactus">
         <div class="section-text">
           <div class="section-title">Notre équipe</div>
           <div class="cards-members">
@@ -147,7 +147,7 @@
         </div>
       </div>
 
-      <div class="section section-discord" id="discord">
+      <div id="discord" class="section section-discord">
         <div class="section-text">
           <div class="section-title">Contactez-nous</div>
           <div class="section-description">

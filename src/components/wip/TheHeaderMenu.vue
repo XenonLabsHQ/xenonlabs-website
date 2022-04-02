@@ -26,18 +26,18 @@
 export default {
   name: "TheHeaderMenu",
 
-  created() {
-    window.addEventListener("resize", this.onRezize);
-  },
-
-  destroyed() {
-    window.removeEventListener("resize", this.onRezize);
-  },
-
   data() {
     return {
       isOpen: false,
     };
+  },
+
+  created() {
+    window.addEventListener("resize", this.onRezize);
+  },
+
+  unmounted() {
+    window.removeEventListener("resize", this.onRezize);
   },
 
   methods: {
