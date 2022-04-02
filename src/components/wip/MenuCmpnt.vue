@@ -70,6 +70,7 @@ export default {
         z-index: 2;
         height: 3px;
         background-color: white;
+        border-radius: 300px;
       }
     }
   }
