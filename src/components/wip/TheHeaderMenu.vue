@@ -1,10 +1,9 @@
 <template>
 	<nav class="nav">
 		<ul class="nav__list" :class="{ nav__list__open: isOpen }">
-			<li class="nav__item">Accueil</li>
-			<li class="nav__item">Pourquoi nous</li>
-			<li class="nav__item">Notre équipe</li>
-			<li class="nav__item">Contact</li>
+			<li v-for="item in menuItems" :key="item.name" class="nav__item">
+				<a :href="item.href">{{ item.name }}</a>
+			</li>
 		</ul>
 
 		<div class="nav__btn" @click="isOpen = !isOpen">
@@ -26,6 +25,27 @@ export default {
 	data() {
 		return {
 			isOpen: false,
+			menuItems: [
+				{
+					name: "Accueil",
+					href: "#home",
+				},
+
+				{
+					name: "Pourquoi nous",
+					href: "#why",
+				},
+
+				{
+					name: "Notre équipe",
+					href: "#equipe",
+				},
+
+				{
+					name: "Contact",
+					href: "#contact",
+				},
+			],
 		};
 	},
 
@@ -60,7 +80,6 @@ export default {
 
 		background-color: rgb(#000, 75%);
 		transition: all 0.1s ease-in-out;
-		margin-block: 0;
 
 		&__open {
 			opacity: 1;
@@ -74,16 +93,21 @@ export default {
 		white-space: nowrap;
 		font-size: 32pt;
 		font-weight: 600;
-		color: white;
-		padding: 15px 20px;
+		padding: 15px;
+		user-select: none;
 
 		@media screen and (max-width: 550px) {
 			padding: 15px 0;
 			font-size: 8vw;
 		}
 
-		&:hover {
-			color: var(--accent-2nd);
+		& a {
+			text-decoration: none;
+			color: white;
+			padding: 15px 30px;
+			&:hover {
+				color: var(--accent-2nd);
+			}
 		}
 	}
 
