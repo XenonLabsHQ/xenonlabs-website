@@ -105,6 +105,33 @@ export default {
 		}
 	}
 
+	&__open {
+		& > .nav__list {
+			opacity: 1;
+			transform: scaleY(1);
+		}
+
+		& .nav__hamburger {
+			transform-origin: center;
+			transform: translateY(2px);
+
+			&__line:nth-child(1) {
+				transform-origin: left top;
+				transform: rotate(45deg) translateY(-3px);
+			}
+
+			&__line:nth-child(2) {
+				transform-origin: left;
+				transform: scaleX(0);
+			}
+
+			&__line:nth-child(3) {
+				transform-origin: left bottom;
+				transform: rotate(-45deg) translateY(3px);
+			}
+		}
+	}
+
 	&__btn {
 		user-select: none;
 		position: relative;
@@ -118,6 +145,8 @@ export default {
 		width: 30px;
 		position: relative;
 		z-index: 3;
+		padding: 0.5rem;
+		transition: all 300ms ease-in-out;
 
 		&__line {
 			height: 3px;
