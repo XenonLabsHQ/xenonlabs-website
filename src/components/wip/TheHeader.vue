@@ -1,7 +1,6 @@
 <template>
 	<header class="header">
 		<a class="header__wordmark" href="#"> <span class="header__wordmark__accent">Xenon</span>Labs. </a>
-
 		<the-header-menu />
 	</header>
 </template>
