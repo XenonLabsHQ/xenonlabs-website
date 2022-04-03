@@ -79,12 +79,17 @@ export default {
 		inset: 0;
 		padding: 0;
 		opacity: 0;
+		margin-block: 0;
 
+		transform: scaleY(0);
+		transform-origin: bottom;
 		background-color: rgb(#000, 75%);
 		transition: all 0.1s ease-in-out;
+		will-change: transform, opacity;
 
 		&__open {
 			opacity: 1;
+			transform: scaleY(1);
 		}
 
 		&__item {
