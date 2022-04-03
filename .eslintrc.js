@@ -8,4 +8,10 @@ module.exports = {
         "plugin:prettier/recommended",
         "eslint:recommended",
     ],
+    env: {
+        node: true,
+        browser: true,
+        commonjs: true,
+        amd: true,
+    },
 };
