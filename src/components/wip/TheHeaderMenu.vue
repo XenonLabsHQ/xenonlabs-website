@@ -175,6 +175,7 @@ export default {
 			position: relative;
 			opacity: 1;
 			transform: scaleY(1);
+			background-color: transparent;
 
 			&__item {
 				font-size: 1.6em;
