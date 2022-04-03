@@ -117,10 +117,6 @@ export default {
 		user-select: none;
 		position: relative;
 		z-index: 2;
-
-		@media screen and (min-width: 1080px) {
-			display: none;
-		}
 	}
 
 	&__hamburger {
@@ -135,17 +131,17 @@ export default {
 			background-color: white;
 			border-radius: 300px;
 		}
+
+		@media screen and (min-width: 900px) {
+			display: none;
+		}
 	}
 
-	.nav__bar {
-		display: flex;
+	&__bar {
+		display: flex; // display: flex; on mobile mode, see @media on bottom
 		align-items: center;
 		gap: 15px;
 		list-style-type: none;
-
-		@media screen and (max-width: 1080px) {
-			display: none;
-		}
 
 		&__item {
 			z-index: 2;
@@ -154,6 +150,10 @@ export default {
 				text-decoration: none;
 				color: white;
 				font-size: 14pt;
+			}
+
+			@media screen and (max-width: 900px) {
+				display: none;
 			}
 		}
 	}
