@@ -129,9 +129,9 @@ export default {
 		flex-direction: column;
 		gap: 5px;
 		width: 30px;
+		z-index: 3;
 
 		&__line {
-			z-index: 2;
 			height: 3px;
 			background-color: white;
 			border-radius: 300px;
