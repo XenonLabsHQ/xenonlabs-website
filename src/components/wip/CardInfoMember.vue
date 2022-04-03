@@ -4,13 +4,18 @@
 			<img class="info--member__avatar" :src="'src/assets/members/' + img" :alt="name + ' profile picture'" />
 			<p class="info--member__name">{{ name }}</p>
 		</div>
-		<a class="btn-green">En savoir plus</a>
+		<button-green>En savoir plus</button-green>
 	</div>
 </template>
 
 <script>
+import ButtonGreen from "@/components/wip/ButtonGreen.vue";
+
 export default {
 	name: "CardInfoDev",
+	components: {
+		ButtonGreen,
+	},
 	props: {
 		name: {
 			type: String,
@@ -52,15 +57,5 @@ export default {
 		font-weight: bold;
 		color: #fff;
 	}
-}
-
-/* TODO: Extract to component */
-.btn-green {
-	color: #0a0c0a;
-	border: none;
-	background-color: #74e262;
-	border-radius: 4px;
-	padding: 0.8em 1.6em;
-	font-weight: 500;
 }
 </style>
