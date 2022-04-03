@@ -1,7 +1,7 @@
 <template>
 	<nav class="nav">
 		<ul class="nav__list" :class="{ nav__list__open: isOpen }">
-			<li v-for="item in menuItems" :key="item.name" class="nav__item">
+			<li v-for="item in menuItems" :key="item.name" class="nav__list__item">
 				<a :href="item.href">{{ item.name }}</a>
 			</li>
 		</ul>
@@ -86,29 +86,29 @@ export default {
 		&__open {
 			opacity: 1;
 		}
-	}
 
-	&__item {
-		list-style-type: none;
-		text-align: center;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		font-size: 32pt;
-		font-weight: 600;
-		padding: 15px;
-		user-select: none;
+		&__item {
+			list-style-type: none;
+			text-align: center;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			font-size: 32pt;
+			font-weight: 600;
+			padding: 15px;
+			user-select: none;
 
-		@media screen and (max-width: 550px) {
-			padding: 15px 0;
-			font-size: 8vw;
-		}
+			@media screen and (max-width: 550px) {
+				padding: 15px 0;
+				font-size: 8vw;
+			}
 
-		& a {
-			text-decoration: none;
-			color: white;
-			padding: 15px 30px;
-			&:hover {
-				color: var(--accent-2nd);
+			& a {
+				text-decoration: none;
+				color: white;
+				padding: 15px 30px;
+				&:hover {
+					color: var(--accent-2nd);
+				}
 			}
 		}
 	}
@@ -138,7 +138,7 @@ export default {
 	}
 
 	&__bar {
-		display: flex; // display: flex; on mobile mode, see @media on bottom
+		display: flex;
 		align-items: center;
 		gap: 15px;
 		list-style-type: none;
