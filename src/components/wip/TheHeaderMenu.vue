@@ -6,15 +6,17 @@
 			</li>
 		</ul>
 
-		<div class="nav__btn" @click="isOpen = !isOpen">
-			<div class="nav__hamburger">
+		<ul class="nav__bar">
+			<li v-for="item in menuItems" :key="item.name" class="nav__bar__item">
+				<a :href="item.href">{{ item.name }}</a>
+			</li>
+
+			<div class="nav__hamburger" @click="isOpen = !isOpen">
 				<div class="nav__hamburger__line" />
 				<div class="nav__hamburger__line" />
 				<div class="nav__hamburger__line" />
 			</div>
-		</div>
-
-		<div class="nav__bar"></div>
+		</ul>
 	</nav>
 </template>
 
@@ -115,10 +117,9 @@ export default {
 		user-select: none;
 		position: relative;
 		z-index: 2;
-		display: none;
 
-		@media screen and (max-width: 1080px) {
-			display: initial;
+		@media screen and (min-width: 1080px) {
+			display: none;
 		}
 	}
 
@@ -133,6 +134,27 @@ export default {
 			height: 3px;
 			background-color: white;
 			border-radius: 300px;
+		}
+	}
+
+	.nav__bar {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		list-style-type: none;
+
+		@media screen and (max-width: 1080px) {
+			display: none;
+		}
+
+		&__item {
+			z-index: 2;
+
+			& a {
+				text-decoration: none;
+				color: white;
+				font-size: 14pt;
+			}
 		}
 	}
 }
