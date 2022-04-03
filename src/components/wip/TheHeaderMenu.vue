@@ -112,21 +112,17 @@ export default {
 		}
 
 		& .nav__hamburger {
-			transform-origin: center;
 			transform: translateY(2px);
 
 			&__line:nth-child(1) {
-				transform-origin: left top;
 				transform: rotate(45deg) translateY(-3px);
 			}
 
 			&__line:nth-child(2) {
-				transform-origin: left;
 				transform: scaleX(0);
 			}
 
 			&__line:nth-child(3) {
-				transform-origin: left bottom;
 				transform: rotate(-45deg) translateY(3px);
 			}
 		}
@@ -153,6 +149,18 @@ export default {
 			background-color: white;
 			border-radius: 300px;
 			transition: all 300ms ease-in-out;
+
+			&:nth-child(1) {
+				transform-origin: left top;
+			}
+
+			&:nth-child(2) {
+				transform-origin: left;
+			}
+
+			&:nth-child(3) {
+				transform-origin: left bottom;
+			}
 		}
 	}
 }
