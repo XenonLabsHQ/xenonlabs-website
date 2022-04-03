@@ -112,8 +112,6 @@ export default {
 		}
 
 		& .nav__hamburger {
-			transform: translateY(2px);
-
 			&__line:nth-child(1) {
 				transform: rotate(45deg) translateY(-3px);
 			}
@@ -177,7 +175,6 @@ export default {
 			position: relative;
 			opacity: 1;
 			transform: scaleY(1);
-			background-color: transparent;
 
 			&__item {
 				font-size: 1.6em;
