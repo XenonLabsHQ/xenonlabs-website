@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
 @keyframes anim-mobile-logo
   from
     opacity: 0
