@@ -117,7 +117,7 @@
 import TheHeader from "@/components/TheHeader.vue";
 
 export default {
-	name: "Home",
+	name: "HomeView",
 	components: {
 		TheHeader,
 	},
@@ -144,7 +144,6 @@ export default {
 	}
 }
 .member {
-	width: fit-content;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -156,9 +155,10 @@ export default {
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.349);
 	user-select: none;
 	pointer-events: none;
+	height: 10em;
 
 	@media screen and (max-width: 1080px) {
-		height: 80px;
+		height: 5em;
 	}
 
 	@media screen and (max-width: 500px) {
