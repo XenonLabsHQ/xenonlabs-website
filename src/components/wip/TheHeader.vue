@@ -19,7 +19,8 @@ export default {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 8px;
+	padding: 5px;
+	height: 5rem;
 
 	&__wordmark {
 		color: inherit;
