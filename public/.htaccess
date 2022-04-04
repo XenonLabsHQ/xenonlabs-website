@@ -6,3 +6,11 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . /index.html [L]
 </IfModule>
+
+<FilesMatch "\.(css|js)$">
+  Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+<FilesMatch "\.(png|svg|gif|webp)$">
+  Header set Cache-Control "max-age=2678400, public"
+</FilesMatch>
