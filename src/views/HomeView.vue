@@ -64,7 +64,7 @@
 						</div>
 
 						<div class="member">
-							<img class="avatar" src="@/assets/members/Sigma.webp" alt="Sigma's profile picture" />
+							<img class="avatar" src="@/assets/members/Sigma.png" alt="Sigma's profile picture" />
 							<div class="member-infos">
 								<div class="member-name">Sigma</div>
 								<div class="member-description">FullStack & Pythonista.</div>
