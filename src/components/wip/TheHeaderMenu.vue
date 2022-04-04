@@ -1,8 +1,19 @@
 <template>
 	<nav class="nav" :class="{ nav__open: isOpen }">
 		<ul class="nav__list">
-			<li v-for="item in menuItems" :key="item.name" class="nav__list__item">
-				<a :href="item.href">{{ item.name }}</a>
+			<li class="nav__list__item">
+				<a href="#home">Accueil</a>
+			</li>
+			<li class="nav__list__item">
+				<a href="#why">Pourquoi nous</a>
+			</li>
+
+			<li class="nav__list__item">
+				<a href="#equipe">Notre équipe</a>
+			</li>
+
+			<li class="nav__list__item">
+				<a href="#contact">Contact</a>
 			</li>
 		</ul>
 		<div class="nav__hamburger" @click="isOpen = !isOpen">
@@ -20,27 +31,6 @@ export default {
 	data() {
 		return {
 			isOpen: false,
-			menuItems: [
-				{
-					name: "Accueil",
-					href: "#home",
-				},
-
-				{
-					name: "Pourquoi nous",
-					href: "#why",
-				},
-
-				{
-					name: "Notre équipe",
-					href: "#equipe",
-				},
-
-				{
-					name: "Contact",
-					href: "#contact",
-				},
-			],
 		};
 	},
 
@@ -65,6 +55,8 @@ export default {
 	&__list {
 		display: flex;
 		flex-direction: column;
+		transform: scaleY(0);
+		transform-origin: bottom;
 		gap: 2rem;
 		align-items: center;
 		justify-content: center;
@@ -73,11 +65,8 @@ export default {
 		padding: 0;
 		opacity: 0;
 		margin-block: 0;
-
-		transform: scaleY(0);
-		transform-origin: bottom;
 		background-color: rgb(#000, 75%);
-		transition: all 0.1s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		will-change: transform, opacity;
 
 		&__item {
@@ -176,6 +165,7 @@ export default {
 			opacity: 1;
 			transform: scaleY(1);
 			background-color: transparent;
+			transition: opacity 0.1s 0.3s ease-in-out;
 
 			&__item {
 				font-size: 1.6em;
