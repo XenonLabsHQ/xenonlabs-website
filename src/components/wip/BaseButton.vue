@@ -1,22 +1,28 @@
 <template>
-	<a class="btn--green">
+	<a class="btn__base">
 		<slot></slot>
 	</a>
 </template>
 
 <script>
 export default {
-	name: "ButtonGreen",
+	name: "BaseButton",
 };
 </script>
 
-<style>
-.btn--green {
+<style lang="scss">
+.btn__base {
 	color: #0a0c0a;
 	border: none;
-	background-color: #74e262;
+	background-color: white;
 	border-radius: 4px;
 	padding: 0.8em 1.6em;
 	font-weight: 500;
+	user-select: none;
+	cursor: pointer;
+
+	&__primary {
+		background-color: #74e262;
+	}
 }
 </style>

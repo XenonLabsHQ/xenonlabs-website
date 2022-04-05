@@ -1,15 +1,15 @@
 <template>
 	<main>
 		<h1>Test Zone</h1>
-		<card-info-dev name="Sigma" img="Sigma.png" />
+		<card-info-member name="Sigma" img="Sigma.png" />
 	</main>
 </template>
 
 <script>
-import CardInfoDev from "@/components/wip/CardInfoMember.vue";
+import CardInfoMember from "@/components/wip/CardInfoMember.vue";
 export default {
 	name: "TestView",
-	components: { CardInfoDev },
+	components: { CardInfoMember },
 };
 </script>
 
