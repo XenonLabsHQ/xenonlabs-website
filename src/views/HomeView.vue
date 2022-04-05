@@ -156,6 +156,7 @@ export default {
 	user-select: none;
 	pointer-events: none;
 	height: 10em;
+	width: 10em;
 
 	@media screen and (max-width: 1080px) {
 		height: 5em;
