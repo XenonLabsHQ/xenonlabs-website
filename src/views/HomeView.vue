@@ -160,10 +160,12 @@ export default {
 
 	@media screen and (max-width: 1080px) {
 		height: 5em;
+		width: 5em;
 	}
 
 	@media screen and (max-width: 500px) {
-		height: 15vw;
+		height: 15vh;
+		width: 15vw;
 	}
 }
 
