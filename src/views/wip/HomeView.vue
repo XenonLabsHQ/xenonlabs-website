@@ -1,18 +1,16 @@
 <template>
-	<div>
-		<TheHeader />
-		<section class="section__head">
-			<div class="section__head__description">
-				<img class="section__head__logo" alt="Logo" src="@/assets/logo.svg" />
-				<div class="section__intro">
-					<h1 class="section__intro__title">XenonLabs.</h1>
-					<p class="section__intro__desc">
-						Nos développeurs et graphistes indépendants seront ravis de construire avec vous vos projets.
-					</p>
-				</div>
+	<TheHeader />
+	<section class="section__head">
+		<div class="section__head__description">
+			<img class="section__head__logo" alt="Logo" src="@/assets/logo.svg" />
+			<div class="section__intro">
+				<h1 class="section__intro__title">XenonLabs.</h1>
+				<p class="section__intro__desc">
+					Nos développeurs et graphistes indépendants seront ravis de construire avec vous vos projets.
+				</p>
 			</div>
-		</section>
-	</div>
+		</div>
+	</section>
 </template>
 
 <script>
