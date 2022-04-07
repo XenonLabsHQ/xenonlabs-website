@@ -1,5 +1,18 @@
 <template>
-	<TheHeader />
+	<div>
+		<TheHeader />
+		<section class="section__head">
+			<div class="section__head__description">
+				<img class="section__head__logo" alt="Logo" src="@/assets/logo.svg" />
+				<div class="section__intro">
+					<h1 class="section__intro__title">XenonLabs.</h1>
+					<p class="section__intro__desc">
+						Nos développeurs et graphistes indépendants seront ravis de construire avec vous vos projets.
+					</p>
+				</div>
+			</div>
+		</section>
+	</div>
 </template>
 
 <script>
@@ -45,5 +58,36 @@ body {
 
 #app {
 	padding-inline: 20px;
+}
+
+.section__head {
+	background-color: var(--black-500);
+	display: flex;
+
+	&__logo {
+		height: 25em;
+		width: 25em;
+	}
+
+	&__description {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.section__intro {
+		display: flex;
+		flex-direction: column;
+
+		&__title {
+			font-size: 36pt;
+			padding-block: 5px;
+			margin: 0;
+		}
+
+		&__desc {
+			font-size: 16pt;
+		}
+	}
 }
 </style>
