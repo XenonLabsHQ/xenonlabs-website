@@ -84,7 +84,8 @@ body {
 		}
 
 		&__desc {
-			font-size: 16pt;
+			font-size: 14pt;
+			width: 20em;
 		}
 	}
 }
