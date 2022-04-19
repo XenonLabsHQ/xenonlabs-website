@@ -1,6 +1,9 @@
-### TODO
+## TODO
 - Enable Transitions on the Logo on mobileMode
 - Page transitions
 
 
-# Soon
+## Building
+1. ``npm install``
+2. ``npm run start``
+3. ``npm run build``
