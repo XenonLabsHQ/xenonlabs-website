@@ -105,7 +105,7 @@ body {
 				border: 2px var(--accent-2nd) solid;
 				border-radius: 300px;
 				position: relative;
-				font-weight: black;
+				font-weight: bold;
 
 				&::after {
 					content: "";
