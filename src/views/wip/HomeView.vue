@@ -6,6 +6,11 @@
 			<h1 class="section__intro__title">XenonLabs.</h1>
 			<p class="section__intro__desc">Nos développeurs et graphistes indépendants</p>
 			<p class="section__intro__desc">seront ravis de construire avec vous vos projets.</p>
+
+			<a class="section__intro__morebtn" href="#more"
+				><div class="section__intro__morebtn__bidule"></div>
+				En savoir plus
+			</a>
 		</div>
 	</section>
 </template>
@@ -70,6 +75,7 @@ body {
 	.section__intro {
 		display: flex;
 		flex-direction: column;
+		gap: 10px;
 
 		&__title {
 			font-size: 36pt;
@@ -82,6 +88,36 @@ body {
 			width: 45ch;
 			text-wrap: normal;
 			margin: 0;
+		}
+
+		&__morebtn {
+			text-decoration: none;
+			color: var(--accent-2nd);
+			font-weight: bold;
+			font-size: 18pt;
+			display: flex;
+			align-items: center;
+			gap: 12px;
+
+			&__bidule {
+				height: 2em;
+				width: 1em;
+				border: 2px var(--accent-2nd) solid;
+				border-radius: 300px;
+				position: relative;
+
+
+				&::after {
+					content: '';
+					position: absolute;
+					top: 70%;
+					left: 8px;
+					width: 0.3em;
+					height: 0.3em;
+					border-radius: 300px;
+					background: var(--accent-2nd);
+				}
+			}
 		}
 	}
 }
