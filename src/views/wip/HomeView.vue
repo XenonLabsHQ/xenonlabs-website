@@ -119,6 +119,12 @@ body {
 	}
 }
 
+@keyframes scroll_icon_animation {
+	50% {
+		transform: translateY(-10px);
+	}
+}
+
 #scroll_icon {
 	height: 35px;
 	width: 17px;
@@ -136,6 +142,8 @@ body {
 		height: 5px;
 		border-radius: 300px;
 		background: var(--accent-2nd);
+		animation: scroll_icon_animation 3s ease-in-out infinite;
+		transform: translateY(0);
 	}
 }
 
