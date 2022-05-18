@@ -1,17 +1,25 @@
 <template>
 	<TheHeader />
 	<section class="section__head">
-		<img class="section__head__logo" alt="Logo" src="@/assets/logo.svg" />
-		<div class="section__intro">
-			<h1 class="section__intro__title">XenonLabs.</h1>
-			<p class="section__intro__desc">Nos développeurs et graphistes indépendants</p>
-			<p class="section__intro__desc">seront ravis de construire avec vous vos projets.</p>
+		<div class="section__head__intro">
+			<img class="section__head__logo" alt="Logo" src="@/assets/logo.svg" />
+			<div class="section__intro">
+				<h1 class="section__intro__title">XenonLabs.</h1>
+				<p class="section__intro__desc">Nos développeurs et graphistes indépendants</p>
+				<p class="section__intro__desc">seront ravis de construire avec vous vos projets.</p>
 
-			<a class="section__intro__morebtn" href="#more"
-				><div class="section__intro__morebtn__bidule"></div>
-				En savoir plus
-			</a>
+				<a class="section__intro__morebtn" href="#more"
+					><div class="section__intro__morebtn__bidule"></div>
+					En savoir plus
+				</a>
+			</div>
 		</div>
+		<ul class="section__head__strpoints">
+			<li>Développement de bots discord</li>
+			<li>Elaboration de site web</li>
+			<li>Création de mods et de plugins Minecraft</li>
+			<li>Solutions d'hébergements complètes</li>
+		</ul>
 	</section>
 </template>
 
@@ -65,11 +73,23 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	gap: 15px;
 
 	&__logo {
-		height: 25em;
-		width: 25em;
+		height: 20em;
+		width: 20em;
+	}
+
+	&__intro {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+
+	&__strpoints {
+		display: grid;
+		list-style: none;
 	}
 
 	.section__intro {
