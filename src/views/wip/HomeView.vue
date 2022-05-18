@@ -4,9 +4,8 @@
 		<img class="section__head__logo" alt="Logo" src="@/assets/logo.svg" />
 		<div class="section__intro">
 			<h1 class="section__intro__title">XenonLabs.</h1>
-			<p class="section__intro__desc">
-				Nos développeurs et graphistes indépendants seront ravis de construire avec vous vos projets.
-			</p>
+			<p class="section__intro__desc">Nos développeurs et graphistes indépendants</p>
+			<p class="section__intro__desc">seront ravis de construire avec vous vos projets.</p>
 		</div>
 	</section>
 </template>
@@ -80,7 +79,9 @@ body {
 
 		&__desc {
 			font-size: 14pt;
-			width: 20em;
+			width: 45ch;
+			text-wrap: normal;
+			margin: 0;
 		}
 	}
 }
