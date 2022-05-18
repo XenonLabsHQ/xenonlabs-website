@@ -84,18 +84,19 @@ body {
 }
 
 .landing {
+	min-height: calc(100vh - 80px);
 	background-color: var(--black-500);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	gap: 15px;
+	gap: 8em;
 }
 
 .hero {
 	display: flex;
 	align-items: center;
-	gap: 20px;
+	gap: 6em;
 
 	&__logo {
 		height: 20em;
@@ -109,6 +110,7 @@ body {
 	}
 
 	&__title {
+		color: var(--text-title);
 		font-size: 36pt;
 		padding-block: 5px;
 		margin: 0;
@@ -162,8 +164,11 @@ body {
 
 .services {
 	display: grid;
+	grid-template-columns: 1fr 1fr;
 	list-style: none;
-	grid-gap: 1em;
+	grid-gap: 1em 4em;
+	padding-left: 0;
+	margin-block: 0;
 
 	&__item {
 		display: flex;
