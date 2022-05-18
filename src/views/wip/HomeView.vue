@@ -16,10 +16,23 @@
 		</div>
 
 		<ul class="services">
-			<li class="services__item">Développement de bots discord</li>
-			<li class="services__item">Elaboration de site web</li>
-			<li class="services__item">Création de mods et de plugins Minecraft</li>
-			<li class="services__item">Solutions d'hébergements complètes</li>
+			<li class="services__item">
+				<img src="@/assets/icons/discord.svg" alt="-" />
+				Développement de bots discord
+			</li>
+
+			<li class="services__item">
+				<img src="@/assets/icons/globe.svg" alt="-" />
+				Elaboration de site web
+			</li>
+			<li class="services__item">
+				<img src="@/assets/icons/box.svg" alt="-" />
+				Création de mods et de plugins Minecraft
+			</li>
+			<li class="services__item">
+				<img src="@/assets/icons/database.svg" alt="-" />
+				Solutions d'hébergements complètes
+			</li>
 		</ul>
 	</section>
 	<section id="more"></section>
@@ -150,5 +163,17 @@ body {
 .services {
 	display: grid;
 	list-style: none;
+	grid-gap: 1em;
+
+	&__item {
+		display: flex;
+		align-items: center;
+		gap: 1em;
+
+		& > img {
+			height: 1.5em;
+			width: 1.5em;
+		}
+	}
 }
 </style>
