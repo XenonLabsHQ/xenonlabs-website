@@ -94,25 +94,26 @@ body {
 			text-decoration: none;
 			color: var(--accent-2nd);
 			font-weight: bold;
-			font-size: 18pt;
+			font-size: 13pt;
 			display: flex;
 			align-items: center;
 			gap: 12px;
 
 			&__bidule {
-				height: 2em;
-				width: 1em;
+				height: 35px;
+				width: 17px;
 				border: 2px var(--accent-2nd) solid;
 				border-radius: 300px;
 				position: relative;
+				font-weight: black;
 
 				&::after {
 					content: "";
 					position: absolute;
 					top: 70%;
-					left: 8px;
-					width: 0.3em;
-					height: 0.3em;
+					left: 6px;
+					width: 5px;
+					height: 5px;
 					border-radius: 300px;
 					background: var(--accent-2nd);
 				}
