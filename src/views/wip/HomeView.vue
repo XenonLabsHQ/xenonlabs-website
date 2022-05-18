@@ -1,14 +1,12 @@
 <template>
 	<TheHeader />
 	<section class="section__head">
-		<div class="section__head__description">
-			<img class="section__head__logo" alt="Logo" src="@/assets/logo.svg" />
-			<div class="section__intro">
-				<h1 class="section__intro__title">XenonLabs.</h1>
-				<p class="section__intro__desc">
-					Nos développeurs et graphistes indépendants seront ravis de construire avec vous vos projets.
-				</p>
-			</div>
+		<img class="section__head__logo" alt="Logo" src="@/assets/logo.svg" />
+		<div class="section__intro">
+			<h1 class="section__intro__title">XenonLabs.</h1>
+			<p class="section__intro__desc">
+				Nos développeurs et graphistes indépendants seront ravis de construire avec vous vos projets.
+			</p>
 		</div>
 	</section>
 </template>
@@ -61,16 +59,13 @@ body {
 .section__head {
 	background-color: var(--black-500);
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
 
 	&__logo {
 		height: 25em;
 		width: 25em;
-	}
-
-	&__description {
-		display: flex;
-		align-items: center;
-		gap: 20px;
 	}
 
 	.section__intro {
