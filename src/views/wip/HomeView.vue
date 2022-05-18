@@ -106,9 +106,8 @@ body {
 				border-radius: 300px;
 				position: relative;
 
-
 				&::after {
-					content: '';
+					content: "";
 					position: absolute;
 					top: 70%;
 					left: 8px;
