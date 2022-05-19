@@ -59,7 +59,7 @@
 							<img class="avatar" src="@/assets/members/Sun.webp" alt="Sun's profile picture" />
 							<div class="member-infos">
 								<div class="member-name">Sun.</div>
-								<div class="member-description">Fullstack dev.</div>
+								<div class="member-description">Développeur Fullstack.</div>
 							</div>
 						</div>
 
@@ -68,22 +68,6 @@
 							<div class="member-infos">
 								<div class="member-name">Sigma</div>
 								<div class="member-description">FullStack & Pythonista.</div>
-							</div>
-						</div>
-
-						<div class="member">
-							<img class="avatar" src="@/assets/members/Fluxy.webp" alt="Fluxy's profile picture" />
-							<div class="member-infos">
-								<div class="member-name">Fluxy</div>
-								<div class="member-description">Développeur Java.</div>
-							</div>
-						</div>
-
-						<div class="member">
-							<img class="avatar" src="@/assets/members/Omega.webp" alt="Omega's profile picture" />
-							<div class="member-infos">
-								<div class="member-name">Omega</div>
-								<div class="member-description">Travaille avec JS & Lua.</div>
 							</div>
 						</div>
 
