@@ -39,6 +39,7 @@ export default {
 	border-radius: 8px;
 	width: 100%;
 	max-width: 413px;
+	box-sizing: border-box;
 
 	&__info {
 		display: flex;

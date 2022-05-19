@@ -1,26 +1,41 @@
 <template>
 	<TheHeader />
-	<section class="section__head">
-		<div class="section__head__intro">
-			<img class="section__head__logo" alt="Logo" src="@/assets/logo.svg" />
-			<div class="section__intro">
-				<h1 class="section__intro__title">XenonLabs.</h1>
-				<p class="section__intro__desc">Nos développeurs et graphistes indépendants</p>
-				<p class="section__intro__desc">seront ravis de construire avec vous vos projets.</p>
+	<section class="landing">
+		<div class="hero">
+			<img class="hero__logo" alt="Logo" src="@/assets/logo.svg" />
+			<div class="hero__intro">
+				<h1 class="hero__title">XenonLabs.</h1>
+				<p class="hero__description">Nos développeurs et graphistes indépendants</p>
+				<p class="hero__description">seront ravis de construire avec vous vos projets.</p>
 
-				<a class="section__intro__morebtn" href="#more"
-					><div class="section__intro__morebtn__bidule"></div>
+				<a class="hero__btn" href="#more">
+					<div id="scroll_icon" />
 					En savoir plus
 				</a>
 			</div>
 		</div>
-		<ul class="section__head__strpoints">
-			<li>Développement de bots discord</li>
-			<li>Elaboration de site web</li>
-			<li>Création de mods et de plugins Minecraft</li>
-			<li>Solutions d'hébergements complètes</li>
+
+		<ul class="services">
+			<li class="services__item">
+				<img src="@/assets/icons/discord.svg" alt="-" />
+				Développement de bots discord
+			</li>
+
+			<li class="services__item">
+				<img src="@/assets/icons/globe.svg" alt="-" />
+				Elaboration de site web
+			</li>
+			<li class="services__item">
+				<img src="@/assets/icons/box.svg" alt="-" />
+				Création de mods et de plugins Minecraft
+			</li>
+			<li class="services__item">
+				<img src="@/assets/icons/database.svg" alt="-" />
+				Solutions d'hébergements complètes
+			</li>
 		</ul>
 	</section>
+	<section id="more"></section>
 </template>
 
 <script>
@@ -68,13 +83,20 @@ body {
 	padding-inline: 20px;
 }
 
-.section__head {
+.landing {
+	min-height: calc(100vh - 80px);
 	background-color: var(--black-500);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	gap: 15px;
+	gap: 8em;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	gap: 6em;
 
 	&__logo {
 		height: 20em;
@@ -83,61 +105,79 @@ body {
 
 	&__intro {
 		display: flex;
-		align-items: center;
-		gap: 20px;
-	}
-
-	&__strpoints {
-		display: grid;
-		list-style: none;
-	}
-
-	.section__intro {
-		display: flex;
 		flex-direction: column;
 		gap: 10px;
+	}
 
-		&__title {
-			font-size: 36pt;
-			padding-block: 5px;
-			margin: 0;
-		}
+	&__title {
+		color: var(--text-title);
+		font-size: 36pt;
+		padding-block: 5px;
+		margin: 0;
+	}
 
-		&__desc {
-			font-size: 14pt;
-			width: 45ch;
-			text-wrap: normal;
-			margin: 0;
-		}
+	&__description {
+		font-size: 14pt;
+		width: 45ch;
+		text-wrap: normal;
+		margin: 0;
+	}
 
-		&__morebtn {
-			text-decoration: none;
-			color: var(--accent-2nd);
-			font-weight: bold;
-			font-size: 13pt;
-			display: flex;
-			align-items: center;
-			gap: 12px;
+	&__btn {
+		text-decoration: none;
+		color: var(--accent-2nd);
+		font-weight: bold;
+		font-size: 13pt;
+		display: flex;
+		align-items: center;
+		gap: 12px;
+	}
+}
 
-			&__bidule {
-				height: 35px;
-				width: 17px;
-				border: 2px var(--accent-2nd) solid;
-				border-radius: 300px;
-				position: relative;
-				font-weight: bold;
+@keyframes scroll_icon_animation {
+	50% {
+		transform: translateY(-10px);
+	}
+}
 
-				&::after {
-					content: "";
-					position: absolute;
-					top: 70%;
-					left: 6px;
-					width: 5px;
-					height: 5px;
-					border-radius: 300px;
-					background: var(--accent-2nd);
-				}
-			}
+#scroll_icon {
+	height: 35px;
+	width: 17px;
+	border: 2px var(--accent-2nd) solid;
+	border-radius: 300px;
+	position: relative;
+	font-weight: bold;
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 70%;
+		left: 6px;
+		width: 5px;
+		height: 5px;
+		border-radius: 300px;
+		background: var(--accent-2nd);
+		animation: scroll_icon_animation 3s ease-in-out infinite;
+		transform: translateY(0);
+	}
+}
+
+.services {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	list-style: none;
+	grid-gap: 1em 4em;
+	padding-left: 0;
+	margin-block: 0;
+
+	&__item {
+		display: flex;
+		align-items: center;
+		gap: 1em;
+
+		& > img {
+			height: 1.5em;
+			width: 1.5em;
 		}
 	}
 }
