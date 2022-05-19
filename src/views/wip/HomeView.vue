@@ -136,7 +136,7 @@ body {
 
 @keyframes scroll_icon_animation {
 	50% {
-		transform: translateY(-10px);
+		transform: translateY(-16px);
 	}
 }
 
