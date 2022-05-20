@@ -42,8 +42,10 @@ export default {
 	border-top: 1em solid var(--bg);
 	border-bottom: 1em solid var(--bg);
 	background-color: var(--black-400);
+	padding-top: 2em;
+	padding-bottom: 4em;
+	min-height: 50vh;
 	gap: 4em;
-	height: 50vh;
 }
 
 .workflows {
