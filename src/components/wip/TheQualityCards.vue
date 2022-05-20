@@ -44,14 +44,13 @@ export default {
 .quality {
 	display: flex;
 	gap: 30px;
-	padding-inline: 10px;
+	padding: 2em 2em 0 2em;
 
 	&__card {
 		display: flex;
 		flex-direction: column;
-		background-color: #121511;
 		width: 20em;
-		padding: 5px;
+		padding: 2em;
 
 		&__title {
 			color: var(--text-title);
@@ -59,7 +58,7 @@ export default {
 			font-size: 14pt;
 			display: flex;
 			align-items: center;
-			gap: 5px;
+			gap: 0.8em;
 
 			img {
 				width: 1.5rem;
@@ -71,6 +70,10 @@ export default {
 			color: white;
 			font-size: 12pt;
 			text-align: justify;
+		}
+
+		&:nth-child(2) {
+			background-color: #121511;
 		}
 	}
 }
