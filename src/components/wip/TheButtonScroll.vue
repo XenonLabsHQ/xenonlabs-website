@@ -18,6 +18,7 @@ export default {
 }
 
 #btn__scroll {
+	margin-top: 1em;
 	text-decoration: none;
 	color: var(--accent-2nd);
 	font-weight: bold;

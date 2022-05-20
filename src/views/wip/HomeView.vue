@@ -7,7 +7,9 @@
 		</div>
 		<TheQualityCards />
 	</section>
-	<section id="more"></section>
+	<section id="more">
+		<p>Hello!</p>
+	</section>
 </template>
 
 <script>
@@ -30,15 +32,20 @@ export default {
 	--white-400: #f0f0f0;
 
 	--bg: var(--black-500);
-	--bg-2nd: var(--green-500);
+	--bg-2nd: var(--black-400);
 	--text-color: var(--white-400);
 	--text-color-2nd: var(--black-400);
 	--text-title: var(--green-400);
-	--accent: var(--black-400);
+	--accent: var(--green-500);
 	--accent-2nd: var(--green-400);
 
 	--radius: 4px;
 	--radius-big: 8px;
+}
+
+*::selection {
+	background: var(--accent);
+	color: var(--text-color-2nd);
 }
 
 html {
@@ -66,6 +73,7 @@ body {
 	justify-content: space-between;
 	flex-direction: column;
 	gap: 4em;
+	border-bottom: 0.5em solid var(--bg);
 
 	&__focus {
 		display: flex;
@@ -75,5 +83,10 @@ body {
 		flex-grow: 1;
 		gap: 4em;
 	}
+}
+
+#more {
+	height: 100vh;
+	background-color: var(--black-400);
 }
 </style>

@@ -2,7 +2,7 @@
 	<div class="hero">
 		<img class="hero__logo" alt="Logo" src="@/assets/logo.svg" />
 		<div class="hero__intro">
-			<h1 class="hero__title">XenonLabs.</h1>
+			<h1 class="hero__title">XenonLabs, Bienvenue!</h1>
 			<p class="hero__description">Nos développeurs et graphistes indépendants</p>
 			<p class="hero__description">seront ravis de construire avec vous vos projets.</p>
 			<TheButtonScroll />
@@ -20,11 +20,11 @@ export default {
 .hero {
 	display: flex;
 	align-items: center;
-	gap: 6em;
+	gap: 4em;
 
 	&__logo {
-		height: 20em;
-		width: 20em;
+		height: 18em;
+		width: 18em;
 	}
 
 	&__intro {
@@ -43,6 +43,7 @@ export default {
 	&__description {
 		font-size: 14pt;
 		width: 45ch;
+		font-weight: 500;
 		text-wrap: normal;
 		margin: 0;
 	}

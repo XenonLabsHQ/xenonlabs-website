@@ -67,13 +67,14 @@ export default {
 		}
 
 		&__description {
-			color: white;
-			font-size: 12pt;
+			color: var(--text-color);
+			font-size: 1em;
+			line-height: 1.6em;
 			text-align: justify;
 		}
 
 		&:nth-child(2) {
-			background-color: #121511;
+			background-color: var(--bg-2nd);
 		}
 	}
 }

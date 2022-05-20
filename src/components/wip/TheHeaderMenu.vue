@@ -74,7 +74,7 @@ export default {
 			text-align: center;
 			text-overflow: ellipsis;
 			white-space: nowrap;
-			font-size: 32pt;
+			font-size: 2em;
 			font-weight: 600;
 			padding: 0.5em;
 			user-select: none;
@@ -168,7 +168,7 @@ export default {
 			transition: opacity 0.1s 0.3s ease-in-out;
 
 			&__item {
-				font-size: 1.6em;
+				font-size: 1.2em;
 			}
 		}
 	}

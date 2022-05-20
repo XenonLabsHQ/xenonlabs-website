@@ -38,9 +38,11 @@ export default {
 	&__item {
 		display: flex;
 		align-items: center;
+		font-weight: 500;
 		gap: 1em;
 
 		& > img {
+			user-select: none;
 			height: 1.5em;
 			width: 1.5em;
 		}
