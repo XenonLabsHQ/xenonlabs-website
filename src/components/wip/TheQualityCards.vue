@@ -77,5 +77,17 @@ export default {
 			background-color: var(--bg-2nd);
 		}
 	}
+
+	@media screen and (max-width: 900px) {
+		flex-direction: column;
+
+		&__card {
+			width: 100%;
+
+			&__description {
+				font-size: clamp(12px, 4vw, 18px);
+			}
+		}
+	}
 }
 </style>
