@@ -1,8 +1,8 @@
 <template>
-	<card class="workflow">
+	<div class="workflow">
 		<img :src="'src/assets/icons/' + img" :alt="alt" />
 		<p>{{ description }}</p>
-	</card>
+	</div>
 </template>
 
 <script>
