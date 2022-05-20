@@ -1,12 +1,6 @@
 <template>
 	<TheHeader />
-	<section class="landing">
-		<div class="landing__focus">
-			<TheHero />
-			<TheServices />
-		</div>
-		<TheQualityCards />
-	</section>
+	<TheLanding />
 	<section id="more">
 		<h1>Choisissez notre système innovent</h1>
 		<div class="workflows">
@@ -31,13 +25,11 @@
 
 <script>
 import TheHeader from "@/components/wip/TheHeader.vue";
-import TheHero from "@/components/wip/TheHero.vue";
-import TheServices from "@/components/wip/TheServices.vue";
-import TheQualityCards from "@/components/wip/TheQualityCards.vue";
 import CardWorkflow from "@/components/wip/CardWorkflow.vue";
+import TheLanding from "@/components/wip/TheLanding.vue";
 
 export default {
-	components: { CardWorkflow, TheQualityCards, TheServices, TheHero, TheHeader },
+	components: { TheLanding, CardWorkflow, TheHeader },
 };
 </script>
 
@@ -81,25 +73,6 @@ body {
 
 #app {
 	padding-inline: 20px;
-}
-
-.landing {
-	min-height: calc(100vh - 80px);
-	background-color: var(--black-500);
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-direction: column;
-	gap: 4em;
-
-	&__focus {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		flex-grow: 1;
-		gap: 4em;
-	}
 }
 
 #more {
