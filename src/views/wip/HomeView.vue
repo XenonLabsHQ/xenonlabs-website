@@ -48,7 +48,7 @@ html {
 body {
 	margin: 0;
 	font-family: "Outfit", sans-serif;
-	font-size: clamp(12px, 1vw, 18px);
+	font-size: clamp(12px, 1.3vw, 18px);
 	background-color: var(--bg);
 	color: var(--text-color);
 	overflow-x: hidden;
