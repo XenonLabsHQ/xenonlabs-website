@@ -33,7 +33,7 @@ export default {
 	--accent-2nd: var(--green-400);
 
 	--radius: 4px;
-	--radius-big: 8px;
+	--radius-big: 15px;
 }
 
 *::selection {
