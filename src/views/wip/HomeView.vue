@@ -1,18 +1,18 @@
 <template>
 	<TheHeader />
 	<TheLanding />
-	<TheWorkFow />
+	<TheWorkFlow />
 	<TheFooter />
 </template>
 
 <script>
 import TheHeader from "@/components/wip/TheHeader.vue";
 import TheLanding from "@/components/wip/TheLanding.vue";
-import TheWorkFow from "@/components/wip/TheWorkFow.vue";
+import TheWorkFlow from "@/components/wip/TheWorkFlow.vue";
 import TheFooter from "@/components/wip/TheFooter.vue";
 
 export default {
-	components: { TheFooter, TheWorkFow, TheLanding, TheHeader },
+	components: { TheFooter, TheWorkFlow, TheLanding, TheHeader },
 };
 </script>
 

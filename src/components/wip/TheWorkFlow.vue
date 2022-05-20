@@ -25,7 +25,7 @@
 import CardWorkflow from "@/components/wip/CardWorkflow.vue";
 
 export default {
-	name: "TheWorkFow",
+	name: "TheWorkFlow",
 	components: {
 		CardWorkflow,
 	},
