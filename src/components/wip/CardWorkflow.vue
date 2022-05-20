@@ -39,6 +39,7 @@ export default {
 	& > img {
 		width: 5em;
 		height: auto;
+		user-select: none;
 	}
 
 	& > p {
