@@ -54,6 +54,6 @@ export default {
 	align-items: center;
 	justify-content: center;
 	gap: 2em;
-	max-width: 60%;
+	max-width: 70%;
 }
 </style>
