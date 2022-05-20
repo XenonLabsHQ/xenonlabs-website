@@ -249,4 +249,11 @@ body {
 		}
 	}
 }
+
+@media screen and (max-width: 900px) {
+	.services {
+		display: flex;
+		flex-direction: column;
+	}
+}
 </style>
