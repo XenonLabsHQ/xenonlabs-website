@@ -80,12 +80,17 @@ export default {
 
 	@media screen and (max-width: 900px) {
 		flex-direction: column;
-
+		padding: 0;
 		&__card {
-			width: 100%;
+			width: 100vw;
+
+			&__title {
+				justify-content: center;
+			}
 
 			&__description {
 				font-size: clamp(12px, 4vw, 18px);
+				padding-inline: 2em;
 			}
 		}
 	}
