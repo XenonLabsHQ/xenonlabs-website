@@ -1,6 +1,8 @@
 <template>
 	<header class="header">
-		<a class="header__wordmark" href="#"> <span class="header__wordmark__accent">Xenon</span>Labs. </a>
+		<a class="header__wordmark" href="#" @mouseenter="toggleRgb()" @mouseleave="toggleRgb()"
+			><span class="header__wordmark__accent">Xenon</span>Labs.
+		</a>
 		<the-header-menu />
 	</header>
 </template>
@@ -11,6 +13,12 @@ import TheHeaderMenu from "@/components/wip/TheHeaderMenu.vue";
 export default {
 	name: "TheHeader",
 	components: { TheHeaderMenu },
+	methods: {
+		toggleRgb() {
+			const app = document.getElementById("app");
+			app.classList.toggle("rgb");
+		},
+	},
 };
 </script>
 

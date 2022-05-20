@@ -54,7 +54,21 @@ body {
 	overflow-x: hidden;
 }
 
+@keyframes rgbShift {
+	0% {
+		filter: hue-rotate(0deg);
+	}
+
+	100% {
+		filter: hue-rotate(360deg);
+	}
+}
+
 #app {
 	padding-inline: 20px;
+}
+
+.rgb {
+	animation: rgbShift 10s ease infinite;
 }
 </style>
