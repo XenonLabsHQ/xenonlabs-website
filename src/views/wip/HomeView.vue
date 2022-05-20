@@ -65,7 +65,7 @@ body {
 }
 
 #app {
-	padding-inline: 20px;
+	padding: 0;
 }
 
 .rgb {

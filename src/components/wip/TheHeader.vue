@@ -27,7 +27,7 @@ export default {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 5px;
+	padding: 5px 1rem;
 	height: 5rem;
 
 	&__wordmark {
