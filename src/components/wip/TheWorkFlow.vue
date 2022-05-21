@@ -5,7 +5,7 @@
 			<CardWorkflow
 				description="Nous n'avons pas de grille tarifaire, nous choisissions avec vous un prix correct et cohérent."
 				img="cash.svg"
-				alt="Payment"
+				alt="Paiement"
 			/>
 			<CardWorkflow
 				description="Nos développeurs et graphistes sont indépendant et touchent la quasi-totalité de l'argent gagné."
