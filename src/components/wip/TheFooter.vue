@@ -16,7 +16,7 @@
 		</section>
 		<section class="footer__right">
 			<div class="footer__right__container">
-				<h4><span class="header__accent">Xenon</span>Labs<span class="header__accent"></span>.</h4>
+				<base-logo />
 				<div class="footer__links">
 					<a class="footer__link" href="">mentions légales</a>
 					<a class="footer__link" href="">FAQ</a>
@@ -28,8 +28,10 @@
 </template>
 
 <script>
+import BaseLogo from "@/components/wip/BaseLogo.vue";
 export default {
 	name: "TheFooter",
+	components: { BaseLogo },
 };
 </script>
 
