@@ -1,6 +1,6 @@
 <template>
 	<section id="more">
-		<h1>Choisissez notre système innovent</h1>
+		<h1>Choisissez notre système innovant</h1>
 		<div class="workflows">
 			<CardWorkflow
 				description="Nous n'avons pas de grille tarifaire, nous choisissions avec vous un prix correct et cohérent."
@@ -46,6 +46,10 @@ export default {
 	padding-bottom: 4em;
 	min-height: 50vh;
 	gap: 4em;
+
+	h1 {
+		font-size: clamp(16pt, 1vw, 25pt);
+	}
 }
 
 .workflows {
