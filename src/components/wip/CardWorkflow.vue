@@ -1,6 +1,6 @@
 <template>
 	<div class="workflow">
-		<img :src="'src/assets/icons/' + img" :alt="alt" />
+		<img :src="'@/assets/icons/' + img" :alt="alt" />
 		<p>{{ description }}</p>
 	</div>
 </template>
