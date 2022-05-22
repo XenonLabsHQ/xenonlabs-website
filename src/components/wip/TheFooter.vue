@@ -12,6 +12,11 @@
 					<p class="contact__card__description">
 						Là où se trouve toute notre communauté, nos developpeurs et notre support
 					</p>
+
+					<a class="contact__card__follow" href="#">
+						<img alt="arrow" src="@/assets/icons/arrow_dark.svg" />
+						Nous rejoindre
+					</a>
 				</div>
 
 				<div class="contact__card">
@@ -19,9 +24,12 @@
 						<img alt="mail" src="@/assets/icons/mail.svg" />
 						<h4>Contactez nous par mail</h4>
 					</div>
-					<p class="contact__card__description">
-						Vous pouvez aussi nous contacter via mail.
-					</p>
+					<p class="contact__card__description">Vous pouvez aussi nous contacter via mail.</p>
+
+					<a class="contact__card__follow" href="#">
+						<img alt="arrow" src="@/assets/icons/arrow_dark.svg" />
+						Nous contacter
+					</a>
 				</div>
 			</div>
 		</section>
@@ -130,6 +138,23 @@ export default {
 			& & img {
 				width: 2em;
 				height: 2em;
+			}
+		}
+
+		&__description {
+			min-height: 4em;
+		}
+
+		&__follow {
+			text-decoration: none;
+			color: var(--black-400);
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			gap: 0.5em;
+
+			& img {
+				transform: rotate(90deg);
 			}
 		}
 	}
