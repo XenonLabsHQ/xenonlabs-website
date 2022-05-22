@@ -6,11 +6,11 @@
 			<div class="contact">
 				<div class="contact__card">
 					<h4>Rejoignez le serveur discord</h4>
-					<p>Là où se trouve toute la communautée de l’entreprise.</p>
+					<p>Là où se trouve toute notre communauté, nos developpeurs et notre support</p>
 				</div>
 				<div class="contact__card">
 					<h4>Contactez nous par mail</h4>
-					<p>Vous pouvez aussi faire votre demande via le mail.</p>
+					<p>Vous pouvez aussi nous contacter via mail.</p>
 				</div>
 			</div>
 		</section>
