@@ -5,12 +5,23 @@
 
 			<div class="contact">
 				<div class="contact__card">
-					<h4>Rejoignez le serveur discord</h4>
-					<p>Là où se trouve toute notre communauté, nos developpeurs et notre support</p>
+					<div class="contact__card__title">
+						<img alt="discord" src="@/assets/icons/discord_dark.svg" />
+						<h4>Rejoignez le serveur discord</h4>
+					</div>
+					<p class="contact__card__description">
+						Là où se trouve toute notre communauté, nos developpeurs et notre support
+					</p>
 				</div>
+
 				<div class="contact__card">
-					<h4>Contactez nous par mail</h4>
-					<p>Vous pouvez aussi nous contacter via mail.</p>
+					<div class="contact__card__title">
+						<img alt="mail" src="@/assets/icons/mail.svg" />
+						<h4>Contactez nous par mail</h4>
+					</div>
+					<p class="contact__card__description">
+						Vous pouvez aussi nous contacter via mail.
+					</p>
 				</div>
 			</div>
 		</section>
@@ -95,5 +106,32 @@ export default {
 .contact {
 	display: flex;
 	gap: 4em;
+
+	&__card {
+		display: flex;
+		flex-direction: column;
+		background-color: var(--green-400);
+		color: var(--black-400);
+		padding: 1em 1.5em;
+		border-radius: var(--radius-big);
+		width: 280px;
+
+		&__title {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+
+			& h4 {
+				font-size: 13pt;
+				font-weight: 500;
+				margin: 0;
+			}
+
+			& & img {
+				width: 2em;
+				height: 2em;
+			}
+		}
+	}
 }
 </style>
