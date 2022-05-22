@@ -25,6 +25,7 @@ export default {
 	font-size: 13pt;
 	display: flex;
 	align-items: center;
+	align-self: start;
 	gap: 12px;
 
 	& span {
