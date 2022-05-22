@@ -22,7 +22,10 @@
 					<a class="footer__link" href="">FAQ</a>
 				</div>
 			</div>
-			<a class="footer__link" href="#">Retourner en haut</a>
+			<a class="footer__link" href="#">
+				Retourner en haut
+				<img alt="arrow" src="@/assets/icons/arrow.svg" />
+			</a>
 		</section>
 	</footer>
 </template>
@@ -74,6 +77,14 @@ export default {
 		text-decoration: none;
 		font-size: 1.2em;
 		margin-bottom: 0.5em;
+		display: flex;
+		align-items: center;
+		gap: 0.5em;
+
+		& img {
+			width: 1em;
+			height: 1em;
+		}
 
 		&:hover {
 			text-decoration: underline;
