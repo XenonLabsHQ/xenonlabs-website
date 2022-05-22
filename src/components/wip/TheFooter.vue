@@ -13,7 +13,7 @@
 						Là où se trouve toute notre communauté, nos developpeurs et notre support
 					</p>
 
-					<a class="contact__card__follow" href="#">
+					<a class="contact__card__follow" :href="discordLink">
 						<img alt="arrow" src="@/assets/icons/arrow_dark.svg" />
 						Nous rejoindre
 					</a>
@@ -26,7 +26,7 @@
 					</div>
 					<p class="contact__card__description">Vous pouvez aussi nous contacter via mail.</p>
 
-					<a class="contact__card__follow" href="#">
+					<a class="contact__card__follow" :href="'mailto:' + contactEmail">
 						<img alt="arrow" src="@/assets/icons/arrow_dark.svg" />
 						Nous contacter
 					</a>
@@ -51,10 +51,17 @@
 
 <script>
 import BaseLogo from "@/components/wip/BaseLogo.vue";
+import strings from "@/assets/strings.json";
 
 export default {
 	name: "TheFooter",
 	components: { BaseLogo },
+	data() {
+		return {
+			discordLink: strings.links.discord,
+			contactEmail: strings.links.email,
+		};
+	},
 };
 </script>
 
