@@ -153,6 +153,10 @@ export default {
 			justify-content: flex-end;
 			gap: 0.5em;
 
+			&:hover {
+				text-decoration: underline;
+			}
+
 			& img {
 				transform: rotate(90deg);
 			}
