@@ -29,6 +29,7 @@
 
 <script>
 import BaseLogo from "@/components/wip/BaseLogo.vue";
+
 export default {
 	name: "TheFooter",
 	components: { BaseLogo },
