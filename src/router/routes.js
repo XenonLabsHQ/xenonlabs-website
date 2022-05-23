@@ -9,9 +9,4 @@ export default [
         name: "wip",
         component: () => import("@/views/wip/HomeView.vue"),
     },
-    {
-        path: "/test",
-        name: "test",
-        component: () => import("@/views/wip/TestView.vue"),
-    },
 ];
