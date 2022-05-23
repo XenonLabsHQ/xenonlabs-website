@@ -38,6 +38,20 @@ export default {
 		display: flex;
 		flex-direction: column;
 		padding-inline: 5em;
+		gap: 1em;
+	}
+}
+
+.founders {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+
+	& .info--member {
+		&--info {
+			flex-direction: column;
+		}
 	}
 }
 
@@ -45,6 +59,6 @@ export default {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 10px;
+	gap: 1em;
 }
 </style>
