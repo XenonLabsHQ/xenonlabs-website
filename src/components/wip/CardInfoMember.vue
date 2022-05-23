@@ -4,6 +4,7 @@
 			<img class="info--member__avatar" :src="'src/assets/members/' + img" :alt="name + ' profile picture'" />
 			<p class="info--member__name">{{ name }}</p>
 		</div>
+		<p class="info--member__desc">{{ desc }}</p>
 		<base-button class="btn__base__primary">En savoir plus</base-button>
 	</div>
 </template>
@@ -21,9 +22,17 @@ export default {
 			type: String,
 			required: true,
 		},
+		desc: {
+			type: String,
+			required: false,
+		},
 		img: {
 			type: String,
 			required: true,
+		},
+		follow: {
+			type: String,
+			required: false,
 		},
 	},
 };
