@@ -4,6 +4,7 @@
 			<h2 class="staff__title">Notre équipe</h2>
 
 			<div class="members">
+				<card-info-member name="voltis" img="Voltis.gif" />
 				<card-info-member name="Taonix" img="Taonix.webp" />
 				<card-info-member name="Sun" img="Sun.webp" />
 				<card-info-member name="Sigma" img="Sigma.png" />
