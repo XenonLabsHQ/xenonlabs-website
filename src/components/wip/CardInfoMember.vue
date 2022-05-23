@@ -49,6 +49,7 @@ export default {
 	width: 100%;
 	max-width: 413px;
 	box-sizing: border-box;
+	gap: 10px;
 
 	&__info {
 		display: flex;

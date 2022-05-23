@@ -4,8 +4,8 @@
 			<h2 class="staff__title">Notre équipe</h2>
 
 			<div class="founders">
-				<card-info-member name="Voltis" img="Voltis.gif" />
-				<card-info-member name="Yalis" img="Yalis.webp" />
+				<card-info-member name="Voltis" desc="Fondateur de XenonLabs." img="Voltis.gif" />
+				<card-info-member name="Yalis" desc="Co-Fondateur de XenonLabs." img="Yalis.webp" />
 			</div>
 
 			<div class="members">
