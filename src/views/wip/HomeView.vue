@@ -14,7 +14,7 @@ import TheFooter from "@/components/wip/TheFooter.vue";
 import TheStaff from "@/components/wip/TheStaff.vue";
 
 export default {
-	components: {TheStaff, TheFooter, TheWorkFlow, TheLanding, TheHeader },
+	components: { TheStaff, TheFooter, TheWorkFlow, TheLanding, TheHeader },
 };
 </script>
 

@@ -56,10 +56,10 @@
 						</div>
 
 						<div class="member">
-							<img class="avatar" src="@/assets/members/Sun.webp" alt="Sun's profile picture" />
+							<img class="avatar" src="@/assets/members/Powerm1nt.png" alt="Sun's profile picture" />
 							<div class="member-infos">
-								<div class="member-name">Sun.</div>
-								<div class="member-description">Développeur Fullstack.</div>
+								<div class="member-name">Powerm1nt</div>
+								<div class="member-description">Développeur web.</div>
 							</div>
 						</div>
 
