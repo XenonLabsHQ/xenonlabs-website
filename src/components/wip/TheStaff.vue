@@ -3,8 +3,12 @@
 		<div class="staff__thestaff">
 			<h2 class="staff__title">Notre équipe</h2>
 
+			<div class="founders">
+				<card-info-member name="Voltis" img="Voltis.gif" />
+				<card-info-member name="Yalis" img="Yalis.webp" />
+			</div>
+
 			<div class="members">
-				<card-info-member name="voltis" img="Voltis.gif" />
 				<card-info-member name="Taonix" img="Taonix.webp" />
 				<card-info-member name="Powerm1nt" img="Powerm1nt.png" />
 				<card-info-member name="Sigma" img="Sigma.png" />
