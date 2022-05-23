@@ -1,5 +1,5 @@
 <template>
-	<section id="staff">
+	<section class="staff" id="staff">
 		<div class="staff__thestaff">
 			<h2 class="staff__title">Notre équipe</h2>
 
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
-#staff {
+.staff {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -32,6 +32,8 @@ export default {
 
 	&__thestaff {
 		display: flex;
+		flex-direction: column;
+		padding-inline: 5em;
 	}
 }
 
