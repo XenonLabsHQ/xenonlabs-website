@@ -6,7 +6,7 @@
 			<div class="members">
 				<card-info-member name="voltis" img="Voltis.gif" />
 				<card-info-member name="Taonix" img="Taonix.webp" />
-				<card-info-member name="Sun" img="Sun.webp" />
+				<card-info-member name="Powerm1nt" img="Powerm1nt.png" />
 				<card-info-member name="Sigma" img="Sigma.png" />
 			</div>
 		</div>
