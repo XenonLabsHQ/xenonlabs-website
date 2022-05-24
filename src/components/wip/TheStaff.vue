@@ -1,5 +1,5 @@
 <template>
-	<section class="staff" id="staff">
+	<section id="staff" class="staff">
 		<div class="staff__thestaff">
 			<h2 class="staff__title">Notre équipe</h2>
 
@@ -14,15 +14,20 @@
 				<card-info-member name="Sigma" img="Sigma.png" />
 			</div>
 		</div>
+		<div class="staff__involving">
+			<p>Vous êtes intéressé pour travailler avec nous?</p>
+			<base-button class="btn__base__primary">Nous rejoindre</base-button>
+		</div>
 	</section>
 </template>
 
 <script>
 import CardInfoMember from "@/components/wip/CardInfoMember.vue";
+import BaseButton from "@/components/wip/BaseButton.vue";
 
 export default {
 	name: "TheStaff",
-	components: { CardInfoMember },
+	components: { BaseButton, CardInfoMember },
 };
 </script>
 
@@ -33,11 +38,17 @@ export default {
 	align-items: center;
 	justify-content: center;
 	padding-block: 5em;
+	gap: 3em;
 
 	&__thestaff {
 		display: flex;
 		flex-direction: column;
 		padding-inline: 5em;
+		gap: 1em;
+	}
+
+	&__involving {
+		display: flex;
 		gap: 1em;
 	}
 }
