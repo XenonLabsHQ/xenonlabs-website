@@ -20,6 +20,9 @@ export default {
 	font-weight: 500;
 	user-select: none;
 	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
 	&__primary {
 		background-color: #74e262;
