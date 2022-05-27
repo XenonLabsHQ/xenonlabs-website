@@ -4,8 +4,9 @@
 		<div class="info--member--info">
 			<p class="info--member--info__name">{{ name }}</p>
 			<p class="info--member--info__desc">{{ desc }}</p>
+
+			<base-button class="btn__base__primary">En savoir plus</base-button>
 		</div>
-		<base-button class="btn__base__primary">En savoir plus</base-button>
 	</div>
 </template>
 
@@ -42,14 +43,14 @@ export default {
 .info--member {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding: 1.2em;
 	background-color: #121511;
 	border-radius: 8px;
 	width: 100%;
 	max-width: 413px;
 	box-sizing: border-box;
-	gap: 10px;
+	gap: 1em;
 
 	&__avatar {
 		height: 2.5em;
@@ -59,11 +60,13 @@ export default {
 	&--info {
 		display: flex;
 		align-items: center;
+		gap: 1em;
+		font-weight: 200;
 
 		&__name {
 			margin-block: 0;
 			font-size: 1.2em;
-			font-weight: bold;
+			font-weight: 500;
 			color: #fff;
 		}
 	}
