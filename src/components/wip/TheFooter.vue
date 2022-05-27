@@ -4,29 +4,29 @@
 			<h2>Contactez-nous</h2>
 
 			<div class="contact">
-				<div class="contact__card">
-					<div class="contact__card__title">
+				<div class="contact__cards">
+					<div class="contact__cards__title">
 						<img alt="discord" src="@/assets/icons/discord_dark.svg" />
 						<h4>Rejoignez le serveur discord</h4>
 					</div>
-					<p class="contact__card__description">
+					<p class="contact__cards__description">
 						Là où se trouve toute notre communauté, nos developpeurs et notre support
 					</p>
 
-					<a class="contact__card__follow" :href="discordLink">
+					<a class="contact__cards__follow" :href="discordLink">
 						<img alt="arrow" src="@/assets/icons/arrow_dark.svg" />
 						Nous rejoindre
 					</a>
 				</div>
 
-				<div class="contact__card">
-					<div class="contact__card__title">
+				<div class="contact__cards">
+					<div class="contact__cards__title">
 						<img alt="mail" src="@/assets/icons/mail.svg" />
 						<h4>Contactez nous par mail</h4>
 					</div>
-					<p class="contact__card__description">Vous pouvez aussi nous contacter via mail.</p>
+					<p class="contact__cards__description">Vous pouvez aussi nous contacter via mail.</p>
 
-					<a class="contact__card__follow" :href="'mailto:' + contactEmail">
+					<a class="contact__cards__follow" :href="'mailto:' + contactEmail">
 						<img alt="arrow" src="@/assets/icons/arrow_dark.svg" />
 						Nous contacter
 					</a>
@@ -112,7 +112,7 @@ export default {
 	display: flex;
 	gap: 4em;
 
-	&__card {
+	&__cards {
 		display: flex;
 		flex-direction: column;
 		background-color: var(--green-400);
@@ -163,7 +163,8 @@ export default {
 
 @media screen and (max-width: 900px) {
 	.footer {
-		background-color: var(--black-400);
+		background-color: var(--bg);
+		flex-direction: column;
 
 		&__left {
 			& > h2 {
@@ -176,6 +177,39 @@ export default {
 				color: var(--black-400);
 				box-sizing: border-box;
 				white-space: nowrap;
+			}
+		}
+	}
+
+	.contact {
+		flex-direction: column;
+		align-items: center;
+
+		&__cards {
+			width: 80%;
+
+			&__description {
+				font-size: 12pt;
+			}
+		}
+
+		&__cards:first-child {
+			border-radius: var(--radius-big) 0 0 var(--radius-big);
+			justify-content: flex-end;
+			align-self: flex-end;
+
+			&__follow {
+				justify-content: flex-start;
+			}
+		}
+
+		&__cards:last-child {
+			border-radius: 0 var(--radius-big) var(--radius-big) 0;
+			justify-content: flex-start;
+			align-self: flex-start;
+
+			&__follow {
+				align-self: flex-end;
 			}
 		}
 	}
