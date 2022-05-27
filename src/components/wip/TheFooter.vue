@@ -128,7 +128,7 @@ export default {
 		background-color: var(--green-400);
 		color: var(--black-400);
 		padding: 1em 1.5em;
-		border-radius: var(--radius-big);
+		border-radius: var(--radius-medium);
 		width: 280px;
 
 		&__title {
@@ -169,5 +169,9 @@ export default {
 			}
 		}
 	}
+}
+
+@media screen and (max-width: 900px) {
+
 }
 </style>
