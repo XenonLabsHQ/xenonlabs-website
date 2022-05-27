@@ -88,7 +88,7 @@ export default {
 	&__thestaff {
 		display: flex;
 		flex-direction: column;
-		padding-inline: 5em;
+		padding-inline: 3em;
 		gap: 3em;
 	}
 
@@ -113,6 +113,19 @@ export default {
 			flex-direction: column;
 			align-items: flex-start;
 			gap: 0;
+		}
+	}
+
+	@media screen and (max-width: 750px) {
+		flex-direction: column;
+
+		.info--member {
+			justify-content: center;
+			gap: 2em;
+
+			&__avatar {
+				height: 8em;
+			}
 		}
 	}
 }
@@ -144,6 +157,8 @@ export default {
 	&--info {
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
+		width: 100%;
 		gap: 1em;
 		font-weight: 200;
 		color: #fff;
