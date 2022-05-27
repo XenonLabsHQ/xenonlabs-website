@@ -1,7 +1,7 @@
 <template>
 	<footer class="footer">
 		<section class="footer__left">
-			<h3>Contactez-nous</h3>
+			<h2>Contactez-nous</h2>
 
 			<div class="contact">
 				<div class="contact__card">
@@ -69,23 +69,13 @@ export default {
 .footer {
 	display: flex;
 	justify-content: center;
-
 	margin-top: 8em;
-	background-color: var(--bg-2nd); // Keep for accessibility
+	background-color: var(--bg-2nd);
 	padding-top: 2em;
 	padding-bottom: 2em;
 	min-height: 320px;
 	position: relative;
 	gap: 4em;
-
-	&::before {
-		content: "";
-		position: absolute;
-		inset: 0 -40px;
-		z-index: -1;
-		height: 100%;
-		background-color: var(--bg-2nd);
-	}
 
 	&__right {
 		display: flex;
@@ -172,6 +162,22 @@ export default {
 }
 
 @media screen and (max-width: 900px) {
+	.footer {
+		background-color: var(--black-400);
 
+		&__left {
+			& > h2 {
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				padding: 1.5em 1em;
+				font-size: 17pt;
+				background-color: var(--green-400);
+				color: var(--black-400);
+				box-sizing: border-box;
+				white-space: nowrap;
+			}
+		}
+	}
 }
 </style>
