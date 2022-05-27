@@ -23,6 +23,8 @@ export default {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 
 	&__primary {
 		background-color: #74e262;
