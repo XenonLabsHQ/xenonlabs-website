@@ -19,6 +19,7 @@ export default {
 	padding: 0.8em 1.6em;
 	font-weight: 500;
 	user-select: none;
+	-webkit-user-select: none;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
