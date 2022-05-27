@@ -1,5 +1,5 @@
 <template>
-	<a id="btn__scroll" href="#more">
+	<a class="btn__scroll" href="#more">
 		<span />
 		En savoir plus
 	</a>
@@ -17,7 +17,7 @@ export default {
 	}
 }
 
-#btn__scroll {
+.btn__scroll {
 	margin-top: 1em;
 	text-decoration: none;
 	color: var(--accent-2nd);
