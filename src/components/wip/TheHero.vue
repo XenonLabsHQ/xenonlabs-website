@@ -2,9 +2,10 @@
 	<div class="hero">
 		<img class="hero__logo" alt="Logo" src="@/assets/logo.svg" />
 		<div class="hero__intro">
-			<h1 class="hero__title">XenonLabs, Bienvenue!</h1>
-			<p class="hero__description">Nos développeurs et graphistes indépendants</p>
-			<p class="hero__description">seront ravis de construire avec vous vos projets.</p>
+			<h1 class="hero__title"><span>XenonLabs, </span>Bienvenue!</h1>
+			<p class="hero__description">
+				Nos développeurs et graphistes indépendants seront ravis de construire avec vous vos projets.
+			</p>
 			<TheButtonScroll />
 		</div>
 	</div>
@@ -12,6 +13,7 @@
 
 <script>
 import TheButtonScroll from "@/components/wip/TheButtonScroll.vue";
+
 export default {
 	components: { TheButtonScroll },
 };
@@ -42,10 +44,35 @@ export default {
 
 	&__description {
 		font-size: 14pt;
-		width: 45ch;
+		width: 35ch;
 		font-weight: 500;
 		text-wrap: normal;
 		margin: 0;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.hero {
+		&__intro {
+			align-items: center;
+		}
+
+		&__logo {
+			display: none;
+		}
+
+		&__title > span {
+			display: none;
+		}
+
+		&__description {
+			text-align: justify;
+			width: 23ch;
+		}
+	}
+
+	.btn__scroll {
+		align-self: center;
 	}
 }
 </style>
