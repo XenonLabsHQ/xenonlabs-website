@@ -2,7 +2,7 @@
 	<div class="info--member">
 		<img
 			class="info--member__avatar"
-			:src="isProd() ? '/src' : '' + '/assets/members/' + img"
+			:src="[isProd ? '/src' : ''] + '/assets/members/' + img"
 			:alt="name + ' profile picture'"
 		/>
 		<div class="info--member--info">
@@ -47,7 +47,7 @@ export default {
 	},
 	methods: {
 		isProd() {
-			if (process.env.NODE_ENV === "development") {
+			if (process.env.NODE_ENV !== "development") {
 				console.log(process.env.NODE_ENV);
 				return true;
 			}
