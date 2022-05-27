@@ -127,7 +127,7 @@ export default {
 .info--member {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding: 1.2em;
 	background-color: #121511;
 	border-radius: 8px;
