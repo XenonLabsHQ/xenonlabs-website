@@ -60,7 +60,7 @@ export default {
 		justify-content: center;
 		background-color: var(--green-400);
 		color: var(--text-color-2nd);
-		border-radius: var(--radius-big);
+		border-radius: var(--radius-medium);
 		padding: 1em;
 		gap: 1em;
 
@@ -100,7 +100,7 @@ export default {
 		max-width: initial;
 
 		&--cards {
-			width: 85%;
+			width: 80%;
 			padding: 2em;
 
 			& > img {
