@@ -59,9 +59,15 @@ export default {
 	justify-content: center;
 	gap: 1em;
 
-	& .info--member {
+	.info--member {
+		&__avatar {
+			height: fit-content;
+		}
+
 		&--info {
 			flex-direction: column;
+			align-items: flex-start;
+			gap: 0;
 		}
 	}
 }
