@@ -44,7 +44,7 @@ export default {
 		display: flex;
 		flex-direction: column;
 		padding-inline: 5em;
-		gap: 1em;
+		gap: 3em;
 	}
 
 	&__involving {
