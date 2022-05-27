@@ -53,10 +53,6 @@ export default {
 	justify-content: center;
 	gap: 2em;
 	max-width: 70%;
-
-	@media screen and (min-width: 2550px) {
-		max-width: 55%; // Fixes a bug on big screen
-	}
 }
 
 .workflow--cards {
