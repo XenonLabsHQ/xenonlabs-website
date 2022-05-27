@@ -94,6 +94,7 @@ export default {
 
 	&__involving {
 		display: flex;
+		font-size: clamp(14px, 1.6vw, 19px);
 		gap: 1em;
 	}
 }
@@ -113,19 +114,6 @@ export default {
 			flex-direction: column;
 			align-items: flex-start;
 			gap: 0;
-		}
-	}
-
-	@media screen and (max-width: 750px) {
-		flex-direction: column;
-
-		.info--member {
-			justify-content: center;
-			gap: 2em;
-
-			&__avatar {
-				height: 8em;
-			}
 		}
 	}
 }
@@ -177,6 +165,27 @@ export default {
 			img {
 				width: clamp(12px, 1.3vw, 18px);
 				height: clamp(12px, 1.3vw, 18px);
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.staff {
+		&__involving {
+			flex-direction: column;
+		}
+	}
+
+	.founders {
+		flex-direction: column;
+
+		.info--member {
+			justify-content: center;
+			gap: 2em;
+
+			&__avatar {
+				height: 8em;
 			}
 		}
 	}
