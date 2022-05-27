@@ -1,6 +1,10 @@
 <template>
 	<div class="info--member">
-		<img class="info--member__avatar" :src="'src/assets/members/' + img" :alt="name + ' profile picture'" />
+		<img
+			class="info--member__avatar"
+			:src="isProd() ? '/src' : '' + '/assets/members/' + img"
+			:alt="name + ' profile picture'"
+		/>
 		<div class="info--member--info">
 			<p class="info--member--info__name">{{ name }}</p>
 			<p v-if="desc" class="info--member--info__desc">
@@ -39,6 +43,14 @@ export default {
 			type: String,
 			required: false,
 			default: "",
+		},
+	},
+	methods: {
+		isProd() {
+			if (process.env.NODE_ENV === "development") {
+				console.log(process.env.NODE_ENV);
+				return true;
+			}
 		},
 	},
 };
