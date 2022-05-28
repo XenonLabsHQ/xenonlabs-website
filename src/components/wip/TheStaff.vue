@@ -62,17 +62,26 @@
 		</div>
 		<div class="staff__involving">
 			<p>Vous êtes intéressé pour travailler avec nous?</p>
-			<base-button class="btn__base__primary">Nous rejoindre</base-button>
+			<a class="default--alink" :href="discordLink">
+				<base-button class="btn__base__primary">Nous rejoindre</base-button>
+			</a>
 		</div>
 	</section>
 </template>
 
 <script>
 import BaseButton from "@/components/wip/BaseButton.vue";
+import strings from "@/assets/strings.json";
 
 export default {
 	name: "TheStaff",
 	components: { BaseButton },
+	data() {
+		return {
+			discordLink: strings.links.discord,
+			contactEmail: strings.links.email,
+		};
+	},
 };
 </script>
 
