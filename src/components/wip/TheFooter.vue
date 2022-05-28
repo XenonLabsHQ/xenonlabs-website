@@ -10,7 +10,7 @@
 						<h4>Rejoignez le serveur discord</h4>
 					</div>
 					<p class="contact__cards__description">
-						Là où se trouve toute notre communauté, nos developpeurs et notre support
+						Là où se trouve toute notre communauté, nos developpeurs et notre support.
 					</p>
 
 					<a class="contact__cards__follow" :href="discordLink">
@@ -177,6 +177,22 @@ export default {
 				color: var(--black-400);
 				box-sizing: border-box;
 				white-space: nowrap;
+			}
+		}
+
+		&__links {
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		&__right {
+			align-items: center;
+			gap: 1em;
+
+			&__container {
+				display: flex;
+				flex-direction: column;
+				gap: 0.5em;
 			}
 		}
 	}
