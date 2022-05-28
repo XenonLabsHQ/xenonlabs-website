@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import BaseLogo from "@/components/wip/BaseLogo.vue";
+import BaseLogo from "@/components/BaseLogo.vue";
 import strings from "@/assets/strings.json";
 
 export default {

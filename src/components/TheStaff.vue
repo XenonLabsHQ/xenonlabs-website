@@ -70,7 +70,7 @@
 </template>
 
 <script>
-import BaseButton from "@/components/wip/BaseButton.vue";
+import BaseButton from "@/components/BaseButton.vue";
 import strings from "@/assets/strings.json";
 
 export default {

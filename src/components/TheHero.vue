@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import TheButtonScroll from "@/components/wip/TheButtonScroll.vue";
+import TheButtonScroll from "@/components/TheButtonScroll.vue";
 
 export default {
 	components: { TheButtonScroll },

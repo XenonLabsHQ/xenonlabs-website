@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import TheHeader from "@/components/wip/TheHeader.vue";
-import TheLanding from "@/components/wip/TheLanding.vue";
-import TheWorkFlow from "@/components/wip/TheWorkFlow.vue";
-import TheFooter from "@/components/wip/TheFooter.vue";
-import TheStaff from "@/components/wip/TheStaff.vue";
+import TheHeader from "@/components/TheHeader.vue";
+import TheLanding from "@/components/TheLanding.vue";
+import TheWorkFlow from "@/components/TheWorkFlow.vue";
+import TheFooter from "@/components/TheFooter.vue";
+import TheStaff from "@/components/TheStaff.vue";
 
 export default {
 	components: { TheStaff, TheFooter, TheWorkFlow, TheLanding, TheHeader },

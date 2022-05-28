@@ -98,7 +98,7 @@
 </template>
 
 <script>
-import TheHeader from "@/components/TheHeader.vue";
+import TheHeader from "@/components/old/TheHeader.vue";
 
 export default {
 	name: "HomeView",
