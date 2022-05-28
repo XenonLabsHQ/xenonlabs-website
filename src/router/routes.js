@@ -5,8 +5,8 @@ export default [
         component: () => import("@/views/HomeView.vue"),
     },
     {
-        path: "/wip",
-        name: "wip",
-        component: () => import("@/views/wip/HomeView.vue"),
+        path: "/old",
+        name: "old",
+        component: () => import("@/views/old/HomeView.vue"),
     },
 ];
