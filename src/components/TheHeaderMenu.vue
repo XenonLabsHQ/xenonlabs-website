@@ -1,3 +1,4 @@
+<!--suppress JSUnusedGlobalSymbols, JSUnusedGlobalSymbols -->
 <template>
 	<nav class="nav" :class="{ nav__open: isOpen }">
 		<ul class="nav__list">
