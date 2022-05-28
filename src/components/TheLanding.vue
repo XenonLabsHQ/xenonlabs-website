@@ -1,5 +1,5 @@
 <template>
-	<section class="landing">
+	<section class="landing" id="whynot">
 		<div class="landing__focus">
 			<TheHero />
 			<TheServices />

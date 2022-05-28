@@ -5,11 +5,11 @@
 				<a href="#home">Accueil</a>
 			</li>
 			<li class="nav__list__item">
-				<a href="#why">Pourquoi nous</a>
+				<a href="#whynot">Pourquoi nous</a>
 			</li>
 
 			<li class="nav__list__item">
-				<a href="#equipe">Notre équipe</a>
+				<a href="#staff">Notre équipe</a>
 			</li>
 
 			<li class="nav__list__item">

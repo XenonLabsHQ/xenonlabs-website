@@ -1,6 +1,6 @@
 <template>
 	<footer class="footer">
-		<section class="footer__left">
+		<section id="contact" class="footer__left">
 			<h2>Contactez-nous</h2>
 
 			<div class="contact">
