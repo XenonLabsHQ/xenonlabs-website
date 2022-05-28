@@ -27,4 +27,10 @@ body {
 	font-family: "Outfit", sans-serif;
 	background: var(--bg-darker);
 }
+
+.default {
+	&--alink {
+		text-decoration: none;
+	}
+}
 </style>
