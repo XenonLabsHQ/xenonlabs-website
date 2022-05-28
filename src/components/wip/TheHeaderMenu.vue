@@ -16,7 +16,7 @@
 				<a href="#contact">Contact</a>
 			</li>
 		</ul>
-		<div class="nav__hamburger" @click="isOpen = !isOpen">
+		<div class="nav__hamburger" @click="toggleMenu">
 			<div class="nav__hamburger__line" />
 			<div class="nav__hamburger__line" />
 			<div class="nav__hamburger__line" />
@@ -44,7 +44,14 @@ export default {
 
 	methods: {
 		onResize() {
-			this.isOpen = false;
+			if (this.isOpen) this.toggleMenu();
+		},
+
+		toggleMenu() {
+			if (!this.isOpen) document.body.style.overflow = "hidden";
+			else document.body.style.overflow = "initial";
+
+			this.isOpen = !this.isOpen;
 		},
 	},
 };
@@ -70,6 +77,7 @@ export default {
 		background-color: rgb(#000, 75%);
 		transition: all 0.2s ease-in-out;
 		will-change: transform, opacity;
+		height: 100vh;
 
 		&__item {
 			list-style-type: none;
