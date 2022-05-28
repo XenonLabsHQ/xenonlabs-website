@@ -52,6 +52,8 @@ export default {
 
 <style lang="scss">
 .nav {
+	z-index: 1;
+
 	&__list {
 		display: flex;
 		flex-direction: column;
@@ -118,7 +120,7 @@ export default {
 	&__btn {
 		user-select: none;
 		position: relative;
-		z-index: 2;
+		z-index: 5;
 	}
 
 	&__hamburger {
@@ -127,7 +129,7 @@ export default {
 		gap: 5px;
 		width: 30px;
 		position: relative;
-		z-index: 3;
+		z-index: 5;
 		padding: 0.5rem;
 		transition: all 300ms ease-in-out;
 
