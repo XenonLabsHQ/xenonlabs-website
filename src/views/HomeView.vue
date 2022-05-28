@@ -87,7 +87,7 @@
 					<div class="section-title">Contactez-nous</div>
 					<div class="section-description">
 						<div class="sdesc-contactlinks">
-							<a href="https://discord.gg/V2XyYSSFdD" target="_blank" rel="noreferrer"> Rejoindre notre Discord </a>
+							<a href="https://discord.gg/V2XyYSSFdD" rel="noreferrer"> Rejoindre notre Discord </a>
 							<a href="mailto:contact@xenonlabs.fr"> Nous contacter par mail </a>
 						</div>
 					</div>
