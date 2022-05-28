@@ -7,6 +7,6 @@ export default [
     {
         path: "/old",
         name: "old",
-        component: () => import("@/views/old/HomeView.vue"),
+        component: () => import("@/old/views/HomeView.vue"),
     },
 ];
