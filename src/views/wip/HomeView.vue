@@ -36,7 +36,7 @@ export default {
 
 	--radius: 4px;
 	--radius-medium: 15px;
-	--radius-big: 20px;
+	--radius-big: 25px;
 }
 
 *::selection {
