@@ -37,7 +37,7 @@
 
 			<div class="members">
 				<div class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Sigma.png" alt="Sigma Profile Picture" />
+					<img class="info--member__avatar" src="@/assets/members/Sigma.webp" alt="Sigma Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Sigma</p>
 
@@ -48,7 +48,7 @@
 				</div>
 
 				<div class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Powerm1nt.png" alt="Powerm1nt Profile Picture" />
+					<img class="info--member__avatar" src="@/assets/members/Powerm1nt.webp" alt="Powerm1nt Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Powerm1nt</p>
 
