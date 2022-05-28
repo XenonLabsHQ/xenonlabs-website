@@ -13,7 +13,9 @@
 							Fondateur.
 						</p>
 
-						<base-button class="btn__base__primary">En savoir plus</base-button>
+						<a class="default--alink" :href="membersProps.Voltis.follow">
+							<base-button class="btn__base__primary">En savoir plus</base-button>
+						</a>
 					</div>
 				</div>
 
@@ -26,7 +28,9 @@
 							Co-Fondateur.
 						</p>
 
-						<base-button class="btn__base__primary">En savoir plus</base-button>
+						<a class="default--alink" :href="membersProps.Yalis.follow">
+							<base-button class="btn__base__primary">En savoir plus</base-button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -37,7 +41,9 @@
 					<div class="info--member--info">
 						<p class="info--member--info__name">Sigma</p>
 
-						<base-button class="btn__base__primary">En savoir plus</base-button>
+						<a class="default--alink" :href="membersProps.Sigma.follow">
+							<base-button class="btn__base__primary">En savoir plus</base-button>
+						</a>
 					</div>
 				</div>
 
@@ -46,7 +52,9 @@
 					<div class="info--member--info">
 						<p class="info--member--info__name">Powerm1nt</p>
 
-						<base-button class="btn__base__primary">En savoir plus</base-button>
+						<a class="default--alink" :href="membersProps.Powerm1nt.follow">
+							<base-button class="btn__base__primary">En savoir plus</base-button>
+						</a>
 					</div>
 				</div>
 
@@ -55,7 +63,9 @@
 					<div class="info--member--info">
 						<p class="info--member--info__name">Taonix</p>
 
-						<base-button class="btn__base__primary">En savoir plus</base-button>
+						<a class="default--alink" :href="membersProps.Taonix.follow">
+							<base-button class="btn__base__primary">En savoir plus</base-button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -80,6 +90,8 @@ export default {
 		return {
 			discordLink: strings.links.discord,
 			contactEmail: strings.links.email,
+			membersProps: strings.members,
+
 		};
 	},
 };

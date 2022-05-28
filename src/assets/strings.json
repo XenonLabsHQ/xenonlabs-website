@@ -2,5 +2,22 @@
   "links": {
     "discord": "https://discord.gg/6MJHD5Kyr5",
     "email": "contact@xenonlabs.fr"
+  },
+  "members": {
+    "Voltis": {
+      "follow": "https://voltis.me"
+    },
+    "Yalis": {
+      "follow": "https://twitter.com/SINAYSISTE"
+    },
+    "Powerm1nt": {
+      "follow": "https://github.com/Powerm1nt"
+    },
+    "Sigma": {
+      "follow": "https://github.com/Sigmanificient"
+    },
+    "Taonix": {
+      "follow": "https://github.com/taonix"
+    }
   }
 }
