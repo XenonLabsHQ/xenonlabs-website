@@ -2,7 +2,7 @@
 	<div class="hero">
 		<img class="hero__logo" alt="Logo" src="@/assets/logo.svg" />
 		<div class="hero__intro">
-			<h1 class="hero__title"><span>XenonLabs, </span>Bienvenue!</h1>
+			<h1 class="hero__title"><span>XenonLabs, </span>Bienvenue !</h1>
 			<p class="hero__description">
 				Nos développeurs et graphistes indépendants seront ravis de construire avec vous vos projets.
 			</p>
