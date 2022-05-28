@@ -91,7 +91,6 @@ export default {
 			discordLink: strings.links.discord,
 			contactEmail: strings.links.email,
 			membersProps: strings.members,
-
 		};
 	},
 };
