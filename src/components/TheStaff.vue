@@ -3,8 +3,8 @@
 		<div class="staff__thestaff">
 			<h2 class="staff__title">Notre équipe</h2>
 
-			<div class="founders">
-				<div class="info--member">
+			<section class="founders">
+				<card class="info--member">
 					<img class="info--member__avatar" src="@/assets/members/Voltis.gif" alt="Voltis Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Voltis</p>
@@ -17,9 +17,9 @@
 							<base-button class="btn__base__primary">En savoir plus</base-button>
 						</a>
 					</div>
-				</div>
+				</card>
 
-				<div class="info--member">
+				<card class="info--member">
 					<img class="info--member__avatar" src="@/assets/members/Yalis.webp" alt="Yalis Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Yalis</p>
@@ -32,12 +32,12 @@
 							<base-button class="btn__base__primary">En savoir plus</base-button>
 						</a>
 					</div>
-				</div>
-			</div>
+				</card>
+			</section>
 
-			<div class="members">
-				<div class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Sigma.png" alt="Sigma Profile Picture" />
+			<section class="members">
+				<card class="info--member">
+					<img class="info--member__avatar" src="@/assets/members/Sigma.webp" alt="Sigma Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Sigma</p>
 
@@ -45,10 +45,10 @@
 							<base-button class="btn__base__primary">En savoir plus</base-button>
 						</a>
 					</div>
-				</div>
+				</card>
 
-				<div class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Powerm1nt.png" alt="Powerm1nt Profile Picture" />
+				<card class="info--member">
+					<img class="info--member__avatar" src="@/assets/members/Powerm1nt.webp" alt="Powerm1nt Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Powerm1nt</p>
 
@@ -56,9 +56,9 @@
 							<base-button class="btn__base__primary">En savoir plus</base-button>
 						</a>
 					</div>
-				</div>
+				</card>
 
-				<div class="info--member">
+				<card class="info--member">
 					<img class="info--member__avatar" src="@/assets/members/Taonix.webp" alt="Taonix Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Taonix</p>
@@ -67,8 +67,8 @@
 							<base-button class="btn__base__primary">En savoir plus</base-button>
 						</a>
 					</div>
-				</div>
-			</div>
+				</card>
+			</section>
 		</div>
 		<div class="staff__involving">
 			<p>Vous êtes intéressé pour travailler avec nous?</p>

@@ -2,20 +2,20 @@
 	<section id="more">
 		<h1>Choisissez notre système <span>innovant.</span></h1>
 		<div class="workflows">
-			<div class="workflows--cards">
+			<card class="workflows--cards">
 				<img src="@/assets/icons/cash.svg" alt="Paiement" />
 				<p>Nous n'avons pas de grille tarifaire, nous choisissions avec vous un prix correct et cohérent.</p>
-			</div>
+			</card>
 
-			<div class="workflows--cards">
+			<card class="workflows--cards">
 				<img src="@/assets/icons/brush.svg" alt="Gain" />
 				<p>Nos développeurs et graphistes sont indépendant et touchent la quasi-totalité de l'argent gagné.</p>
-			</div>
+			</card>
 
-			<div class="workflows--cards">
+			<card class="workflows--cards">
 				<img src="@/assets/icons/people.svg" alt="Contact" />
 				<p>Vous serez mis directement en relation avec l'équipe. Ni relais ni intermédiaire.</p>
-			</div>
+			</card>
 		</div>
 	</section>
 </template>
