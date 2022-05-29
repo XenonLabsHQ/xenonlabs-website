@@ -11,7 +11,7 @@
 		</li>
 		<li class="services__item">
 			<img src="@/assets/icons/box.svg" alt="-" />
-			Création de mods et de plugins Minecraft
+			Elaboration d'APIs de traduction et de moderation
 		</li>
 		<li class="services__item">
 			<img src="@/assets/icons/database.svg" alt="-" />
