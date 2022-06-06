@@ -4,14 +4,6 @@ module.exports = {
         browser: true,
         node: true,
     },
-    parserOptions: {
-        parser: "@typescript-eslint/parser",
-    },
-    plugins: ["vue"],
-    extends: [
-        "eslint:recommended",
-        "plugin:prettier/recommended",
-        "plugin:vue/recommended",
-        "plugin:nuxt/recommended",
-    ],
+    extends: ["prettier", "plugin:prettier/recommended"],
+    plugins: ["prettier"],
 };
