@@ -5,19 +5,6 @@
 	<TheStaff />
 	<TheFooter />
 </template>
-
-<script>
-import TheHeader from "@/components/TheHeader.vue";
-import TheLanding from "@/components/TheLanding.vue";
-import TheWorkFlow from "@/components/TheWorkFlow.vue";
-import TheFooter from "@/components/TheFooter.vue";
-import TheStaff from "@/components/TheStaff.vue";
-
-export default {
-	components: { TheStaff, TheFooter, TheWorkFlow, TheLanding, TheHeader },
-};
-</script>
-
 <style lang="scss">
 :root {
 	--green-400: #74e262;
