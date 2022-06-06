@@ -6,12 +6,8 @@
 </template>
 
 <script>
-import TheHeaderMenu from "@/components/TheHeaderMenu.vue";
-import BaseLogo from "@/components/BaseLogo.vue";
-
 export default {
 	name: "TheHeader",
-	components: { TheHeaderMenu, BaseLogo },
 };
 </script>
 

@@ -9,12 +9,8 @@
 </template>
 
 <script>
-import TheHero from "@/components/TheHero.vue";
-import TheServices from "@/components/TheServices.vue";
-import TheQualityCards from "@/components/TheQualityCards.vue";
 export default {
-	name: "TheLanding",
-	components: { TheQualityCards, TheServices, TheHero },
+	name: "TheLanding"
 };
 </script>
 
