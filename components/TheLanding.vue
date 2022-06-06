@@ -7,13 +7,6 @@
 		<TheQualityCards />
 	</section>
 </template>
-
-<script>
-export default {
-	name: "TheLanding"
-};
-</script>
-
 <style lang="scss">
 .landing {
 	min-height: calc(100vh - 80px);

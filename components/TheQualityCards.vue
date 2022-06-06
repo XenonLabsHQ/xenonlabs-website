@@ -33,13 +33,6 @@
 		</card>
 	</div>
 </template>
-
-<script>
-export default {
-	name: "TheQualityCards",
-};
-</script>
-
 <style lang="scss">
 .quality {
 	display: flex;

@@ -19,13 +19,6 @@
 		</div>
 	</section>
 </template>
-
-<script>
-export default {
-	name: "TheWorkFlow",
-};
-</script>
-
 <style lang="scss">
 #more {
 	display: flex;

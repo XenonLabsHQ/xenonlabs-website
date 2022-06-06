@@ -1,12 +1,12 @@
 <template>
 	<footer class="footer">
-		<section id="contact" class="footer__left">
+    <section id="contact" class="footer__left">
 			<h2>Contactez-nous</h2>
 
 			<div class="contact">
 				<div class="contact__cards">
-					<div class="contact__cards__title">
-						<img alt="discord" src="/assets/icons/discord_dark.svg" />
+          <div class="contact__cards__title">
+            <img alt="discord" src="/assets/icons/discord_dark.svg" >
 						<h4>Rejoignez le serveur discord</h4>
 					</div>
 					<p class="contact__cards__description">
@@ -38,7 +38,8 @@
 				<base-logo />
 				<div class="footer__links">
 					<a class="footer__link" href="">mentions légales</a>
-					<a class="footer__link" href="">FAQ</a>
+					<a class="footer__link" href=""
+>FAQ</a>
 				</div>
 			</div>
 			<a class="footer__link" href="#">

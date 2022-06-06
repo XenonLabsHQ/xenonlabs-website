@@ -1,15 +1,8 @@
 <template>
 	<a class="btn__base">
-		<slot></slot>
+		<slot />
 	</a>
 </template>
-
-<script>
-export default {
-	name: "BaseButton",
-};
-</script>
-
 <style lang="scss">
 .btn__base {
 	color: #0a0c0a;

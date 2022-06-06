@@ -9,7 +9,7 @@
 					<div class="info--member--info">
 						<p class="info--member--info__name">Voltis</p>
 						<p class="info--member--info__desc">
-							<img alt="badge" src="@/../assets/icons/badge.svg" />
+							<img alt="badge" src="/assets/icons/badge.svg" />
 							Fondateur.
 						</p>
 

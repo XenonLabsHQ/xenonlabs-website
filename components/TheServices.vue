@@ -19,13 +19,6 @@
 		</li>
 	</ul>
 </template>
-
-<script>
-export default {
-	name: "TheServices",
-};
-</script>
-
 <style lang="scss">
 .services {
 	display: grid;
