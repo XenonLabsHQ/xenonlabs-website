@@ -4,12 +4,12 @@
 			<h2 class="staff__title">Notre équipe</h2>
 
 			<section class="founders">
-				<card class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Voltis.gif" alt="Voltis Profile Picture" />
+				<div class="info--member">
+					<img class="info--member__avatar" src="/assets/members/Voltis.gif" alt="Voltis Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Voltis</p>
 						<p class="info--member--info__desc">
-							<img alt="badge" src="@/assets/icons/badge.svg" />
+							<img alt="badge" src="/assets/icons/badge.svg" />
 							Fondateur.
 						</p>
 
@@ -17,14 +17,14 @@
 							<base-button class="btn__base__primary">En savoir plus</base-button>
 						</a>
 					</div>
-				</card>
+				</div>
 
-				<card class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Yalis.webp" alt="Yalis Profile Picture" />
+				<div class="info--member">
+					<img class="info--member__avatar" src="/assets/members/Yalis.webp" alt="Yalis Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Yalis</p>
 						<p class="info--member--info__desc">
-							<img alt="badge" src="@/assets/icons/badge.svg" />
+							<img alt="badge" src="/assets/icons/badge.svg" />
 							Co-Fondateur.
 						</p>
 
@@ -32,12 +32,12 @@
 							<base-button class="btn__base__primary">En savoir plus</base-button>
 						</a>
 					</div>
-				</card>
+				</div>
 			</section>
 
 			<section class="members">
-				<card class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Sigma.webp" alt="Sigma Profile Picture" />
+				<div class="info--member">
+					<img class="info--member__avatar" src="/assets/members/Sigma.webp" alt="Sigma Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Sigma</p>
 
@@ -45,10 +45,10 @@
 							<base-button class="btn__base__primary">En savoir plus</base-button>
 						</a>
 					</div>
-				</card>
+				</div>
 
-				<card class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Powerm1nt.webp" alt="Powerm1nt Profile Picture" />
+				<div class="info--member">
+					<img class="info--member__avatar" src="/assets/members/Powerm1nt.webp" alt="Powerm1nt Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Powerm1nt</p>
 
@@ -56,10 +56,10 @@
 							<base-button class="btn__base__primary">En savoir plus</base-button>
 						</a>
 					</div>
-				</card>
+				</div>
 
-				<card class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Taonix.webp" alt="Taonix Profile Picture" />
+				<div class="info--member">
+					<img class="info--member__avatar" src="/assets/members/Taonix.webp" alt="Taonix Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Taonix</p>
 
@@ -67,7 +67,7 @@
 							<base-button class="btn__base__primary">En savoir plus</base-button>
 						</a>
 					</div>
-				</card>
+				</div>
 			</section>
 		</div>
 		<div class="staff__involving">
@@ -80,12 +80,10 @@
 </template>
 
 <script>
-import BaseButton from "@/components/BaseButton.vue";
-import strings from "@/assets/strings.json";
+import strings from "/assets/strings.json";
 
 export default {
 	name: "TheStaff",
-	components: { BaseButton },
 	data() {
 		return {
 			discordLink: strings.links.discord,

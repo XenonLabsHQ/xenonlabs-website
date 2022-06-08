@@ -2,30 +2,23 @@
 	<section id="more">
 		<h1>Choisissez notre système <span>innovant.</span></h1>
 		<div class="workflows">
-			<card class="workflows--cards">
-				<img src="@/assets/icons/cash.svg" alt="Paiement" />
+			<div class="workflows--cards">
+				<img src="/assets/icons/cash.svg" alt="Paiement" />
 				<p>Nous n'avons pas de grille tarifaire, nous choisissions avec vous un prix correct et cohérent.</p>
-			</card>
+			</div>
 
-			<card class="workflows--cards">
-				<img src="@/assets/icons/brush.svg" alt="Gain" />
+			<div class="workflows--cards">
+				<img src="/assets/icons/brush.svg" alt="Gain" />
 				<p>Nos développeurs et graphistes sont indépendant et touchent la quasi-totalité de l'argent gagné.</p>
-			</card>
+			</div>
 
-			<card class="workflows--cards">
-				<img src="@/assets/icons/people.svg" alt="Contact" />
+			<div class="workflows--cards">
+				<img src="/assets/icons/people.svg" alt="Contact" />
 				<p>Vous serez mis directement en relation avec l'équipe. Ni relais ni intermédiaire.</p>
-			</card>
+			</div>
 		</div>
 	</section>
 </template>
-
-<script>
-export default {
-	name: "TheWorkFlow",
-};
-</script>
-
 <style lang="scss">
 #more {
 	display: flex;

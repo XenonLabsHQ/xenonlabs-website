@@ -1,12 +1,12 @@
 <template>
 	<footer class="footer">
-		<section id="contact" class="footer__left">
+    <section id="contact" class="footer__left">
 			<h2>Contactez-nous</h2>
 
 			<div class="contact">
 				<div class="contact__cards">
-					<div class="contact__cards__title">
-						<img alt="discord" src="@/assets/icons/discord_dark.svg" />
+          <div class="contact__cards__title">
+            <img alt="discord" src="/assets/icons/discord_dark.svg" >
 						<h4>Rejoignez le serveur discord</h4>
 					</div>
 					<p class="contact__cards__description">
@@ -14,20 +14,20 @@
 					</p>
 
 					<a class="contact__cards__follow" :href="discordLink">
-						<img alt="arrow" src="@/assets/icons/arrow_dark.svg" />
+						<img alt="arrow" src="/assets/icons/arrow_dark.svg" />
 						Nous rejoindre
 					</a>
 				</div>
 
 				<div class="contact__cards">
 					<div class="contact__cards__title">
-						<img alt="mail" src="@/assets/icons/mail.svg" />
+						<img alt="mail" src="/assets/icons/mail.svg" />
 						<h4>Contactez nous par mail</h4>
 					</div>
 					<p class="contact__cards__description">Vous pouvez aussi nous contacter via mail.</p>
 
 					<a class="contact__cards__follow" :href="'mailto:' + contactEmail">
-						<img alt="arrow" src="@/assets/icons/arrow_dark.svg" />
+						<img alt="arrow" src="/assets/icons/arrow_dark.svg" />
 						Nous contacter
 					</a>
 				</div>
@@ -38,24 +38,23 @@
 				<base-logo />
 				<div class="footer__links">
 					<a class="footer__link" href="">mentions légales</a>
-					<a class="footer__link" href="">FAQ</a>
+					<a class="footer__link" href=""
+>FAQ</a>
 				</div>
 			</div>
 			<a class="footer__link" href="#">
 				Retourner en haut
-				<img alt="arrow" src="@/assets/icons/arrow.svg" />
+				<img alt="arrow" src="/assets/icons/arrow.svg" />
 			</a>
 		</section>
 	</footer>
 </template>
 
 <script>
-import BaseLogo from "@/components/BaseLogo.vue";
-import strings from "@/assets/strings.json";
+import strings from "/assets/strings.json";
 
 export default {
 	name: "TheFooter",
-	components: { BaseLogo },
 	data() {
 		return {
 			discordLink: strings.links.discord,
