@@ -1,4 +1,4 @@
-_IS_YARN_INSTALLED := $(shell whereis -q yarn)
+_IS_YARN_INSTALLED := $(shell which yarn)
 
 # If yarn is installed, use it to install dependencies
 ifeq (, $(_IS_YARN_INSTALLED))
@@ -9,7 +9,7 @@ endif
 
 
 # Prettify the output when lolcat is installed
-_CAN_PRETTY := $(shell whereis -q lolcat)
+_CAN_PRETTY := $(shell which lolcat)
 
 ifeq (, $(_CAN_PRETTY))
 	COLOR =
