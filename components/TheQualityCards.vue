@@ -2,7 +2,7 @@
 	<div class="quality">
 		<div class="quality__card">
 			<div class="quality__card__title">
-				<img alt="check-mark" src="/assets/icons/check.svg" />
+				<img alt="check-mark" src="~/assets/icons/check.svg" />
 				Qualité professionnelle
 			</div>
 			<p class="quality__card__description">
@@ -13,7 +13,7 @@
 
 		<div class="quality__card">
 			<div class="quality__card__title">
-				<img alt="cloud" src="/assets/icons/cloud.svg" />
+				<img alt="cloud" src="~/assets/icons/cloud.svg" />
 				Hebergement Supérieur
 			</div>
 			<p class="quality__card__description">
@@ -24,7 +24,7 @@
 
 		<div class="quality__card">
 			<div class="quality__card__title">
-				<img alt="money" src="/assets/icons/money.svg" />
+				<img alt="money" src="~/assets/icons/money.svg" />
 				Paiement flexible
 			</div>
 			<p class="quality__card__description">
