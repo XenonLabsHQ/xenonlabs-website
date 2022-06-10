@@ -65,6 +65,11 @@ fclean: clean
 
 # OTHER ------------------------------------------------------------------
 
+local: gen
+	rm -rf /srv/http/public/*
+	cp -R .output/public/* /srv/http/public/
+	@ echo ">>> http://localhost" $(COLOR)
+
 # Remove dependencies lock
 dep-unlock: fclean
 	@ rm -rf *.lock *-lock.json
