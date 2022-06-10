@@ -1,6 +1,6 @@
 <template>
-	<a class="wordmark" href="#" @mouseenter="toggleRgb()" @mouseleave="toggleRgb()"
-		><span class="wordmark__accent">Xenon</span>Labs.
+	<a class="wordmark" href="#" @mouseenter="toggleRgb()" @mouseleave="toggleRgb()">
+		<span class="wordmark__accent">Xenon</span>Labs.
 	</a>
 </template>
 

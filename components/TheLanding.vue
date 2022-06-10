@@ -7,17 +7,6 @@
 		<TheQualityCards />
 	</section>
 </template>
-
-<script>
-import TheHero from "@/components/TheHero.vue";
-import TheServices from "@/components/TheServices.vue";
-import TheQualityCards from "@/components/TheQualityCards.vue";
-export default {
-	name: "TheLanding",
-	components: { TheQualityCards, TheServices, TheHero },
-};
-</script>
-
 <style lang="scss">
 .landing {
 	min-height: calc(100vh - 80px);

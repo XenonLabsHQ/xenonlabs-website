@@ -3,13 +3,13 @@
 		<div class="staff__thestaff">
 			<h2 class="staff__title">Notre équipe</h2>
 
-			<div class="founders">
+			<section class="founders">
 				<div class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Voltis.gif" alt="Voltis Profile Picture" />
+					<img class="info--member__avatar" src="~/assets/members/Voltis.gif" alt="Voltis Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Voltis</p>
 						<p class="info--member--info__desc">
-							<img alt="badge" src="@/assets/icons/badge.svg" />
+							<img alt="badge" src="~/assets/icons/badge.svg" />
 							Fondateur.
 						</p>
 
@@ -20,11 +20,11 @@
 				</div>
 
 				<div class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Yalis.webp" alt="Yalis Profile Picture" />
+					<img class="info--member__avatar" src="~/assets/members/Yalis.webp" alt="Yalis Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Yalis</p>
 						<p class="info--member--info__desc">
-							<img alt="badge" src="@/assets/icons/badge.svg" />
+							<img alt="badge" src="~/assets/icons/badge.svg" />
 							Co-Fondateur.
 						</p>
 
@@ -33,11 +33,11 @@
 						</a>
 					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="members">
+			<section class="members">
 				<div class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Sigma.png" alt="Sigma Profile Picture" />
+					<img class="info--member__avatar" src="~/assets/members/Sigma.webp" alt="Sigma Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Sigma</p>
 
@@ -48,7 +48,7 @@
 				</div>
 
 				<div class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Powerm1nt.png" alt="Powerm1nt Profile Picture" />
+					<img class="info--member__avatar" src="~/assets/members/Powerm1nt.webp" alt="Powerm1nt Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Powerm1nt</p>
 
@@ -59,7 +59,7 @@
 				</div>
 
 				<div class="info--member">
-					<img class="info--member__avatar" src="@/assets/members/Taonix.webp" alt="Taonix Profile Picture" />
+					<img class="info--member__avatar" src="~/assets/members/Taonix.webp" alt="Taonix Profile Picture" />
 					<div class="info--member--info">
 						<p class="info--member--info__name">Taonix</p>
 
@@ -68,7 +68,7 @@
 						</a>
 					</div>
 				</div>
-			</div>
+			</section>
 		</div>
 		<div class="staff__involving">
 			<p>Vous êtes intéressé pour travailler avec nous?</p>
@@ -80,12 +80,10 @@
 </template>
 
 <script>
-import BaseButton from "@/components/BaseButton.vue";
-import strings from "@/assets/strings.json";
+import strings from "/assets/strings.json";
 
 export default {
 	name: "TheStaff",
-	components: { BaseButton },
 	data() {
 		return {
 			discordLink: strings.links.discord,

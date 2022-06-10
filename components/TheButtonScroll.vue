@@ -4,12 +4,6 @@
 		En savoir plus
 	</a>
 </template>
-
-<script>
-export default {
-	name: "TheButtonScroll",
-};
-</script>
 <style lang="scss">
 @keyframes scroll_icon_animation {
 	50% {

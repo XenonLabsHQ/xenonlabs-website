@@ -1,31 +1,24 @@
 <template>
 	<ul class="services">
 		<li class="services__item">
-			<img src="@/assets/icons/discord.svg" alt="-" />
+			<img src="~/assets/icons/discord.svg" alt="-" />
 			Développement de bots discord
 		</li>
 
 		<li class="services__item">
-			<img src="@/assets/icons/globe.svg" alt="-" />
+			<img src="~/assets/icons/globe.svg" alt="-" />
 			Elaboration de site web
 		</li>
 		<li class="services__item">
-			<img src="@/assets/icons/box.svg" alt="-" />
-			Création de mods et de plugins Minecraft
+			<img src="~/assets/icons/box.svg" alt="-" />
+			Elaboration d'APIs de traduction et de moderation
 		</li>
 		<li class="services__item">
-			<img src="@/assets/icons/database.svg" alt="-" />
+			<img src="~/assets/icons/database.svg" alt="-" />
 			Solutions d'hébergements complètes
 		</li>
 	</ul>
 </template>
-
-<script>
-export default {
-	name: "TheServices",
-};
-</script>
-
 <style lang="scss">
 .services {
 	display: grid;

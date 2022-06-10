@@ -1,42 +1,32 @@
 {
+  "private": true,
   "name": "xenonlabs-website",
   "version": "2.0.1",
   "scripts": {
-    "serve": "vite --host",
-    "build": "vite build",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "eslint --ext .js,.ts,.vue",
     "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
   },
-  "dependencies": {
-    "vue": "^3.2.36",
-    "vue-router": "^4.0.15"
-  },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.2.4",
-    "eslint": "^8.12.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^8.5.0",
-    "gh-pages": "^3.2.3",
-    "prettier": "^2.6.1",
-    "prettier-eslint": "^13.0.0",
-    "sass": "^1.49.9",
-    "stylus": "^0.54.7",
-    "stylus-loader": "^3.0.2",
-    "vite": "^2.9.9"
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "eslint": "^8.17.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^9.0.1",
+    "nuxt": "3.0.0-rc.3",
+    "prettier": "^2.6.2",
+    "prettier-eslint": "^15.0.1",
+    "sass": "^1.52.2",
+    "sass-loader": "13"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "plugin:prettier/recommended",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
+  "dependencies": {
+    "@nuxt/typescript-build": "^2.1.0"
   }
 }
