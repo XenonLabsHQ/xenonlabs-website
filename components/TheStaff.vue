@@ -125,7 +125,8 @@ export default {
 
 	.info--member {
 		&__avatar {
-			height: fit-content;
+			height: 128px;
+			width: 128px;
 		}
 
 		&--info {
