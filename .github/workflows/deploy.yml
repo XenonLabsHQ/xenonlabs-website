@@ -21,10 +21,10 @@ jobs:
       - name: 📂 Sync files
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: ${{ secrets.SFTP_SERVER }}
+          host: ${{ secrets.SFTP_SERVER }}
           port: ${{ secrets.SFTP_PORT }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           delete_remote_files: true
-          local_path: ${GITHUB_WORKSPACE}/output/public/*
-          remote_path: /var/lib/docker/volumes/Web/_data
+          localPath: ./output/public/
+          remotePath: /var/lib/docker/volumes/Web/_data
