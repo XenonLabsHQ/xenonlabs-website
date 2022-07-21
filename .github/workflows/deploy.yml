@@ -17,6 +17,9 @@ jobs:
 
       - name: 📦 Compile
         run: make gen
+        
+      - name: 📦 List Files
+        run: ls -hal
 
       - name: 📂 Sync files
         uses: Creepios/sftp-action@v1.0.4
@@ -25,6 +28,5 @@ jobs:
           port: ${{ secrets.SFTP_PORT }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          delete_remote_files: true
           localPath: ./output/public/
           remotePath: /var/lib/docker/volumes/Web/_data
