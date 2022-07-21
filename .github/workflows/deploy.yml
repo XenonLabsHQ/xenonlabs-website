@@ -25,5 +25,5 @@ jobs:
           port: ${{ secrets.SFTP_PORT }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist/
-          server-dir: /var/lib/docker/volumes/Web/_data
+          local_path: dist/
+          remote_path: /var/lib/docker/volumes/Web/_data
