@@ -1,6 +1,6 @@
 <template>
 	<div class="hero">
-		<img class="hero__logo" alt="Logo" src="~/assets/logo.svg" />
+		<img class="hero__logo" alt="Logo" src="~/public/logo.svg" />
 		<div class="hero__intro">
 			<h1 class="hero__title"><span>XenonLabs, </span>Bienvenue !</h1>
 			<p class="hero__description">
