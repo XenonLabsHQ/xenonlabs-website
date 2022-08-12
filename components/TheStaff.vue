@@ -12,10 +12,7 @@
 							<img alt="badge" src="~/assets/icons/badge.svg"/>
 							Fondateur.
 						</p>
-
-						<a class="default--alink" :href="membersProps.Voltis.follow">
-							<base-button class="btn__base__primary">En savoir plus</base-button>
-						</a>
+						<base-button class="btn__base__primary" :href="membersProps.Voltis.follow">En savoir plus</base-button>
 					</div>
 				</div>
 
