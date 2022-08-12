@@ -27,10 +27,7 @@
 							<img alt="badge" src="~/assets/icons/badge.svg"/>
 							Co-Fondateur.
 						</p>
-
-						<a class="default--alink" :href="membersProps.Yalis.follow">
-							<base-button class="btn__base__primary">En savoir plus</base-button>
-						</a>
+						<base-button class="btn__base__primary" :href="membersProps.Yalis.follow">En savoir plus</base-button>
 					</div>
 				</div>
 			</section>
@@ -40,10 +37,7 @@
 					<img class="info--member__avatar" src="~/public/images/members/Sigma.webp" alt="Sigma Profile Picture"/>
 					<div class="info--member--info">
 						<p class="info--member--info__name">Sigma</p>
-
-						<a class="default--alink" :href="membersProps.Sigma.follow">
-							<base-button class="btn__base__primary">En savoir plus</base-button>
-						</a>
+						<base-button class="btn__base__primary" :href="membersProps.Sigma.follow">En savoir plus</base-button>
 					</div>
 				</div>
 
@@ -52,10 +46,7 @@
 					     alt="Powerm1nt Profile Picture"/>
 					<div class="info--member--info">
 						<p class="info--member--info__name">Powerm1nt</p>
-
-						<a class="default--alink" :href="membersProps.Powerm1nt.follow">
-							<base-button class="btn__base__primary">En savoir plus</base-button>
-						</a>
+						<base-button class="btn__base__primary" :href="membersProps.Powerm1nt.follow">En savoir plus</base-button>
 					</div>
 				</div>
 
@@ -63,19 +54,14 @@
 					<img class="info--member__avatar" src="~/public/images/members/Taonix.webp" alt="Taonix Profile Picture"/>
 					<div class="info--member--info">
 						<p class="info--member--info__name">Taonix</p>
-
-						<a class="default--alink" :href="membersProps.Taonix.follow">
-							<base-button class="btn__base__primary">En savoir plus</base-button>
-						</a>
+						<base-button class="btn__base__primary" :href="membersProps.Taonix.follow">En savoir plus</base-button>
 					</div>
 				</div>
 			</section>
 		</div>
 		<div class="staff__involving">
 			<p>Vous êtes intéressé pour travailler avec nous?</p>
-			<a class="default--alink" :href="discordLink">
-				<base-button class="btn__base__primary">Nous rejoindre</base-button>
-			</a>
+			<base-button class="btn__base__primary" :href="discordLink">Nous rejoindre</base-button>
 		</div>
 	</section>
 </template>
