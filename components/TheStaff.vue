@@ -5,11 +5,11 @@
 
 			<section class="founders">
 				<div class="info--member">
-					<img class="info--member__avatar" src="~/public/images/members/Voltis.gif" alt="Voltis Profile Picture" />
+					<img class="info--member__avatar" src="~/public/images/members/Voltis.gif" alt="Voltis Profile Picture"/>
 					<div class="info--member--info">
 						<p class="info--member--info__name">Voltis</p>
 						<p class="info--member--info__desc">
-							<img alt="badge" src="~/assets/icons/badge.svg" />
+							<img alt="badge" src="~/assets/icons/badge.svg"/>
 							Fondateur.
 						</p>
 
@@ -20,11 +20,11 @@
 				</div>
 
 				<div class="info--member">
-					<img class="info--member__avatar" src="~/public/images/members/Yalis.webp" alt="Yalis Profile Picture" />
+					<img class="info--member__avatar" src="~/public/images/members/Yalis.webp" alt="Yalis Profile Picture"/>
 					<div class="info--member--info">
 						<p class="info--member--info__name">Yalis</p>
 						<p class="info--member--info__desc">
-							<img alt="badge" src="~/assets/icons/badge.svg" />
+							<img alt="badge" src="~/assets/icons/badge.svg"/>
 							Co-Fondateur.
 						</p>
 
@@ -37,7 +37,7 @@
 
 			<section class="members">
 				<div class="info--member">
-					<img class="info--member__avatar" src="~/public/images/members/Sigma.webp" alt="Sigma Profile Picture" />
+					<img class="info--member__avatar" src="~/public/images/members/Sigma.webp" alt="Sigma Profile Picture"/>
 					<div class="info--member--info">
 						<p class="info--member--info__name">Sigma</p>
 
@@ -48,7 +48,8 @@
 				</div>
 
 				<div class="info--member">
-					<img class="info--member__avatar" src="~/public/images/members/Powerm1nt.webp" alt="Powerm1nt Profile Picture" />
+					<img class="info--member__avatar" src="~/public/images/members/Powerm1nt.webp"
+					     alt="Powerm1nt Profile Picture"/>
 					<div class="info--member--info">
 						<p class="info--member--info__name">Powerm1nt</p>
 
@@ -59,7 +60,7 @@
 				</div>
 
 				<div class="info--member">
-					<img class="info--member__avatar" src="~/public/images/members/Taonix.webp" alt="Taonix Profile Picture" />
+					<img class="info--member__avatar" src="~/public/images/members/Taonix.webp" alt="Taonix Profile Picture"/>
 					<div class="info--member--info">
 						<p class="info--member--info__name">Taonix</p>
 
@@ -80,18 +81,18 @@
 </template>
 
 <script>
-import strings from "/assets/strings.json";
+import strings from '/assets/strings.json'
 
 export default {
-	name: "TheStaff",
+	name: 'TheStaff',
 	data() {
 		return {
 			discordLink: strings.links.discord,
 			contactEmail: strings.links.email,
 			membersProps: strings.members,
-		};
+		}
 	},
-};
+}
 </script>
 
 <style lang="scss">
