@@ -68,3 +68,9 @@
 	}
 }
 </style>
+<script>
+import TheButtonScroll from './TheButtonScroll'
+export default {
+	components: {TheButtonScroll}
+}
+</script>
