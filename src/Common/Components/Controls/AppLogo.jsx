@@ -13,9 +13,13 @@ const Logo = styled.a`
   }
 `;
 
+function toggleRgb() {
+  const app = document.getElementById("root");
+  app.classList.toggle("rgb");
+}
 export default function AppLogo() {
   return (
-      <Logo href="#" onMouseEnter="toggleRgb()" onMouseLeave="toggleRgb()">
+      <Logo href="#" onMouseEnter={toggleRgb} onMouseLeave={toggleRgb}>
         <span>Xenon</span>Labs.
       </Logo>
   );
