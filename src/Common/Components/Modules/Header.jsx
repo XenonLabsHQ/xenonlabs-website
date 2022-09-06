@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import AppLogo from '../Controls/AppLogo'
+import AppLogo from '../Misc/AppLogo'
+import HeaderMenu from '../Misc/HeaderMenu'
 
 const AppBar = styled.header`
   display: flex;
@@ -14,6 +15,7 @@ export default function Header() {
   return (
       <AppBar>
         <AppLogo />
+        <HeaderMenu />
       </AppBar>
   );
 }
