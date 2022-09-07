@@ -6,7 +6,6 @@ import Staff from '../Common/Components/Modules/Staff'
 export default function Home() {
   return (
       <>
-        <Header />
         <Landing />
         <Staff />
       </>
