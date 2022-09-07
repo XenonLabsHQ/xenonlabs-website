@@ -1,7 +1,7 @@
 import React from 'react'
 import QualityCards from './QualityCards'
 import Services from './Services'
-import Hero from '../Misc/Hero'
+import Hero from './Hero'
 import './Landing.scss'
 
 export default function Landing() {
