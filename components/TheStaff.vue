@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import strings from '/assets/strings.json'
+import strings from '/Users/powerm1nt/Projects/XenonLabs/xenonlabs-website/public/assets/strings.json'
 
 export default {
 	name: 'TheStaff',
