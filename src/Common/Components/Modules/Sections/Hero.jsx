@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.scss'
-import ButtonScroll from '../Misc/ButtonScroll'
+import ButtonScroll from '../../Misc/ButtonScroll'
 
 export default function Hero() {
   return (

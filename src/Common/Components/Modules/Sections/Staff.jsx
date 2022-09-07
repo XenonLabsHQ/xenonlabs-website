@@ -1,7 +1,7 @@
 import React from 'react'
-import strings from '../../data/strings.json'
+import strings from '../../../data/strings.json'
 import './Staff.scss'
-import Button from '../Controls/Button'
+import Button from '../../Controls/Button'
 
 const membersProps = {
   discordLink: strings.links.discord,
