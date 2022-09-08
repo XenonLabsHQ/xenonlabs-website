@@ -3,31 +3,24 @@
   "name": "xenonlabs-website",
   "version": "2.0.1",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "lint": "eslint --ext .js,.ts,.vue",
-    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint --ext .js,.ts,.jsx"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^6.0.1",
-    "@nuxtjs/eslint-config-typescript": "^10.0.0",
-    "@nuxtjs/eslint-module": "^3.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^9.0.1",
-    "nuxt": "^3.0.0-rc.7",
     "prettier": "^2.6.2",
     "prettier-eslint": "^15.0.1",
-    "sass": "^1.52.2",
-    "sass-loader": "13",
-    "webpack": "^5.74.0"
+    "sass": "^1.54.8",
+    "vite": "^3.0.9"
   },
   "dependencies": {
-    "@nuxt/typescript-build": "^2.1.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.5"
   }
 }

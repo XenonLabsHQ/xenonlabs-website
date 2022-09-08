@@ -16,7 +16,7 @@ jobs:
           node-version: 14.19.1
 
       - name: 📦 Compile
-        run: make gen
+        run: yarn && yarn run build
         
       - name: 📦 List Files
         run: ls -hal
@@ -28,5 +28,5 @@ jobs:
           port: ${{ secrets.SFTP_PORT }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          localPath: /home/runner/work/xenonlabs-website/xenonlabs-website/.output/public
-          remotePath: /var/lib/docker/volumes/Web/_data
+          localPath: /home/runner/work/xenonlabs-website/xenonlabs-website/dist
+          remotePath: ${{ secrets.REMOTE_PATH }}
