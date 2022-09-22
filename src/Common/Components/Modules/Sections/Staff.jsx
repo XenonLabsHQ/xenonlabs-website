@@ -54,16 +54,6 @@ export default function Staff() {
             </div>
 
             <div className="info--member">
-              <img className="info--member__avatar" src="/images/members/Powerm1nt.webp"
-                   alt="Powerm1nt Profile Picture"/>
-              <div className="info--member--info">
-                <p className="info--member--info__name">Powerm1nt</p>
-                <Button className="btn__base__primary" href={membersProps.m.Powerm1nt.follow}>En savoir plus
-                </Button>
-              </div>
-            </div>
-
-            <div className="info--member">
               <img className="info--member__avatar" src="/images/members/Taonix.webp" alt="Taonix Profile Picture"/>
               <div className="info--member--info">
                 <p className="info--member--info__name">Taonix</p>
